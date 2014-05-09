@@ -31878,3 +31878,42 @@
  7456: 2014-05-09 15:09:55 execute 79 (0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin'  LIMIT 21; args=(u'admin',)
  7456: 2014-05-09 15:09:55 execute 79 (0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin'  LIMIT 21; args=(u'admin',)
  7456: 2014-05-09 15:09:55 execute 79 (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin'  LIMIT 21; args=(u'admin',)
+ 7456: 2014-05-09 15:17:37 index 14 hello open
+ 7456: 2014-05-09 15:17:38 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 7456: 2014-05-09 15:17:38 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 7456: 2014-05-09 15:17:38 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 7456: 2014-05-09 15:17:38 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 7456: 2014-05-09 15:17:38 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 7456: 2014-05-09 15:17:38 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 7456: 2014-05-09 15:17:38 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:¹ø°üÈâ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ºì³¦
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:¼¦µ°¸â
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:¶³Àæ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:Ïã¹Ï
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:·¬ÇÑ½´
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:·ÛÌõ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÀäÃæ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÏÚ±ý
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:µ¶Óã
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:°åÃæ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:¹ÞÍ·
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:°ü·¹
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:´ó´Ð
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÃæÌõ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:¿ª·â²Ë
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÓÍÆÃÃæ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:°×²Ë
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÂéÀ±ÌÌ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:µ¶Ï÷Ãæ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:Öâ×Ó
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ËÉ×Ó
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:Ëá²Ë
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÉÕ¾Æ
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:¸ñÍßË¹
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÔªÏü
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:ÊÁ×Ó
+ 7456: 2014-05-09 15:17:38 wordcloud 65 result:É°¹ø
+ 7456: 2014-05-09 15:17:38 wordcloud 72 wordcloud done!
