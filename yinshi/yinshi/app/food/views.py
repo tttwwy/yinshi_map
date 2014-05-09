@@ -12,7 +12,7 @@ import logging
 
 def index(request):
     logging.info("hello open")
-    return render_to_response('index.html')
+    return render_to_response('base.html')
 def base(request):
     logging.info("test open")
     return render_to_response('base.html')
