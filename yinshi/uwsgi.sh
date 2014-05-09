@@ -1,2 +1,2 @@
-killall uwsgi
-uwsgi -x ~/yinshi/django.xml --daemonize ~/yinshi/django.log
+killall -9 uwsgi
+uwsgi -x django.xml --daemonize django.log
