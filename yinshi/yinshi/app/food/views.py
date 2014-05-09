@@ -26,6 +26,7 @@ def compare(request):
 def test(request):
     return render_to_response('test.html')
 
+
 def get_content(request):
     sex = request.GET.get('sex')
     time = request.GET.get('time')
