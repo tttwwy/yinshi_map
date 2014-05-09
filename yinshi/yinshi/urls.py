@@ -9,7 +9,8 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     #   url(r'^hello/test/',views.test),
-    url(r'^new/$',views.hello),
+    url(r'^new/$',views.index),
+    url(r'^base',views.base),
     url(r'^new/debug',views.debug),
     url(r'^new/getcontent',views.get_content),
     # url(r'^hello/compare/',views.compare),

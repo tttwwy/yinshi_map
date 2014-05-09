@@ -10,12 +10,12 @@ import math
 import models
 import logging
 
-def hello(request):
+def index(request):
     logging.info("hello open")
     return render_to_response('index.html')
-def test(request):
+def base(request):
     logging.info("test open")
-    return render_to_response('test.html')
+    return render_to_response('base.html')
 
 def debug(request):
     logging.info("debug open")

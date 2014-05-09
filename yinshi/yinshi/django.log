@@ -27859,3 +27859,2735 @@
  6744: 2014-05-08 22:51:27 wordcloud 65 result:ºìÉÕÈâ
  6744: 2014-05-08 22:51:27 wordcloud 65 result:Õ¨½´Ãæ
  6744: 2014-05-08 22:51:27 wordcloud 72 wordcloud done!
+ 6744: 2014-05-08 23:56:53 hello 14 hello open
+ 6744: 2014-05-08 23:56:54 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-08 23:56:54 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-08 23:56:54 execute 79 (0.018) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-08 23:56:54 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-08 23:56:54 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-08 23:56:54 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-08 23:56:54 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-08 23:56:54 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-08 23:56:54 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:09:59 hello 14 hello open
+ 6744: 2014-05-09 00:10:00 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:10:00 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:10:00 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:10:00 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:10:00 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:10:00 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:10:00 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:10:00 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:10:00 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:10:11 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:10:11 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:10:11 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:10:11 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:10:11 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:10:11 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:10:11 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:10:11 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:10:11 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:10:21 hello 14 hello open
+ 6744: 2014-05-09 00:10:23 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:10:23 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:10:23 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:10:23 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:10:23 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:10:23 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:10:23 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:10:23 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:10:23 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:11:01 hello 14 hello open
+ 6744: 2014-05-09 00:11:03 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:11:03 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:11:03 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:11:03 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:11:03 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:11:03 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:11:03 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:11:03 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:11:03 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:11:11 hello 14 hello open
+ 6744: 2014-05-09 00:11:13 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:11:13 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:11:13 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:11:13 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:11:13 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:11:13 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:11:13 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:11:13 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:11:13 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:11:20 cal_pmi 36 kind:all sex: time: province:ºÓÄÏ cal_pmi begin:
+ 6744: 2014-05-09 00:11:20 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:11:20 execute 79 (0.002) select content from cache where province = 'ºÓÄÏ' and sex = '' and time = '' and kind = 'all'; args=(u'\u6cb3\u5357', u'', u'', u'all')
+ 6744: 2014-05-09 00:11:20 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:11:20 cal_pmi 44 kind:all sex: time: province:ºÓÄÏ in cache:
+ 6744: 2014-05-09 00:11:20 cal_pmi 95 kind:all sex: time: province:ºÓÄÏ cal_pmi end:
+ 6744: 2014-05-09 00:11:20 wordcloud 55 request info sex: time: province:ºÓÄÏ kind:all 
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:»âÃæ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:À±ÌÀ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ºúÀ±ÌÀ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:µ­Ë®Óã
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ß¦ÃæÆ¤
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:Ë®Ï¯
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÂéÌÇ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:³´Ã×
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:´óÅÌ¼¦
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:âÉ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:³ô¸É×Ó
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:Ã«¼â
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÌÇ¶¹
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÍÁ¶¹·Û
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:³´¼¦
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:¿¾Ãæ½î
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:¶¹¸¯ÌÀ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:¼åµ°
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:Ã«¶Ç
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:»±»¨
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:É½é«
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÂóÀöËØ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:Ãî´à½Ç
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÓÍÂó²Ë
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÉÕ±ı
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:¼¦µ°Ãæ
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:¸Ç½½·¹
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:ÀğÓã
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:Ïã´»
+ 6744: 2014-05-09 00:11:20 wordcloud 65 result:»ğÍÈ
+ 6744: 2014-05-09 00:11:20 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:11:22 cal_pmi 36 kind:all sex: time: province:Çàº£ cal_pmi begin:
+ 6744: 2014-05-09 00:11:22 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:11:22 execute 79 (0.192) select content from cache where province = 'Çàº£' and sex = '' and time = '' and kind = 'all'; args=(u'\u9752\u6d77', u'', u'', u'all')
+ 6744: 2014-05-09 00:11:22 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:11:22 cal_pmi 44 kind:all sex: time: province:Çàº£ in cache:
+ 6744: 2014-05-09 00:11:22 cal_pmi 95 kind:all sex: time: province:Çàº£ cal_pmi end:
+ 6744: 2014-05-09 00:11:22 wordcloud 55 request info sex: time: province:Çàº£ kind:all 
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÂÜ²·
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:»¨Éú
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÒûÁÏ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Ïã½¶
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÑòÈâ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÇÉ¿ËÁ¦
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ôÕ×Ó
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÄÌ²è
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÖíÈâ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:°ü×Ó
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Ğ¡³Ô
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Ã×Ïß
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:»ğ¹ø
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Å£ÄÌ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ËáÄÌ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÁãÊ³
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Æ¡¾Æ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Æ»¹û
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:µ°¸â
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ÂøÍ·
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:ºì¾Æ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:¿ÉÀÖ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:¼¦µ°
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:¹·Èâ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:¶¹¸¯
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:·½±ãÃæ
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:Íí·¹
+ 6744: 2014-05-09 00:11:22 wordcloud 65 result:±ı
+ 6744: 2014-05-09 00:11:22 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:11:23 cal_pmi 36 kind:all sex: time: province:ÄÚÃÉ¹Å cal_pmi begin:
+ 6744: 2014-05-09 00:11:23 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:11:23 execute 79 (0.018) select content from cache where province = 'ÄÚÃÉ¹Å' and sex = '' and time = '' and kind = 'all'; args=(u'\u5185\u8499\u53e4', u'', u'', u'all')
+ 6744: 2014-05-09 00:11:23 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:11:23 cal_pmi 44 kind:all sex: time: province:ÄÚÃÉ¹Å in cache:
+ 6744: 2014-05-09 00:11:23 cal_pmi 95 kind:all sex: time: province:ÄÚÃÉ¹Å cal_pmi end:
+ 6744: 2014-05-09 00:11:23 wordcloud 55 request info sex: time: province:ÄÚÃÉ¹Å kind:all 
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:İ¯Ãæ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÂéÌÇ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÃÉ²Í
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ìËÃæ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÉÕÂó
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:³È
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Á¹¸â
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:±ùÈª
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Ëâ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:äÌÑòÈâ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Ê¥´ú
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:¶¬¹Ï
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:»ğÍÈ³¦
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:¾Â²Ë
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Íã¶¹
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:°Ë±¦Öà
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÄÌÀÒ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Èâ¼ĞâÉ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:°ÂÀû°Â
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÑòÈâ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Ö÷Ê³
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Ë®ÖóÓã
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:Àæ
+ 6744: 2014-05-09 00:11:23 wordcloud 65 result:·ÊÅ£
+ 6744: 2014-05-09 00:11:23 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:11:24 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:11:24 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:11:24 execute 79 (0.000) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:11:24 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:11:24 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:11:24 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:11:24 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:11:24 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:11:24 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:14:01 debug 21 debug open
+ 6744: 2014-05-09 00:14:02 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:14:02 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:14:02 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:14:02 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:14:02 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:14:02 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:14:02 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:14:02 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:14:02 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:24:17 hello 14 hello open
+ 6744: 2014-05-09 00:24:18 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:24:18 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:24:18 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:24:18 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:24:18 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:24:18 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:24:18 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:24:18 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:24:18 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:24:31 hello 14 hello open
+ 6744: 2014-05-09 00:24:34 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:24:34 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:24:34 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:24:34 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:24:34 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:24:34 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:24:34 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:24:34 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:24:34 wordcloud 72 wordcloud done!
+ 6744: 2014-05-09 00:24:39 hello 14 hello open
+ 6744: 2014-05-09 00:24:40 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 6744: 2014-05-09 00:24:40 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 6744: 2014-05-09 00:24:40 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 6744: 2014-05-09 00:24:40 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 6744: 2014-05-09 00:24:40 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 6744: 2014-05-09 00:24:40 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 6744: 2014-05-09 00:24:40 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:¹ø°üÈâ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ºì³¦
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:¼¦µ°¸â
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:¶³Àæ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:Ïã¹Ï
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:·¬ÇÑ½´
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:·ÛÌõ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÀäÃæ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÏÚ±ı
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:µ¶Óã
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:°åÃæ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:¹ŞÍ·
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:°ü·¹
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:´ó´Ğ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÃæÌõ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:¿ª·â²Ë
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÓÍÆÃÃæ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:°×²Ë
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÂéÀ±ÌÌ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:µ¶Ï÷Ãæ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:Öâ×Ó
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ËÉ×Ó
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:Ëá²Ë
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÉÕ¾Æ
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:¸ñÍßË¹
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÔªÏü
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:ÊÁ×Ó
+ 6744: 2014-05-09 00:24:40 wordcloud 65 result:É°¹ø
+ 6744: 2014-05-09 00:24:40 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:29:07 base 17 test open
+ 10176: 2014-05-09 00:29:10 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10176: 2014-05-09 00:29:10 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:29:10 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10176: 2014-05-09 00:29:10 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:29:10 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10176: 2014-05-09 00:29:10 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10176: 2014-05-09 00:29:10 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:¹ø°üÈâ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ºì³¦
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:¼¦µ°¸â
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:¶³Àæ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:Ïã¹Ï
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:·¬ÇÑ½´
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:·ÛÌõ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÀäÃæ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÏÚ±ı
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:µ¶Óã
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:°åÃæ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:¹ŞÍ·
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:°ü·¹
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:´ó´Ğ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÃæÌõ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:¿ª·â²Ë
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÓÍÆÃÃæ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:°×²Ë
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:Öâ×Ó
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ËÉ×Ó
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:Ëá²Ë
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÉÕ¾Æ
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:¸ñÍßË¹
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÔªÏü
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:ÊÁ×Ó
+ 10176: 2014-05-09 00:29:10 wordcloud 65 result:É°¹ø
+ 10176: 2014-05-09 00:29:10 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:30:51 base 17 test open
+ 10176: 2014-05-09 00:30:56 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10176: 2014-05-09 00:30:56 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:30:56 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10176: 2014-05-09 00:30:56 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:30:56 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10176: 2014-05-09 00:30:56 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10176: 2014-05-09 00:30:56 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:¹ø°üÈâ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ºì³¦
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:¼¦µ°¸â
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:¶³Àæ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:Ïã¹Ï
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:·¬ÇÑ½´
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:·ÛÌõ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÀäÃæ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÏÚ±ı
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:µ¶Óã
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:°åÃæ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:¹ŞÍ·
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:°ü·¹
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:´ó´Ğ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÃæÌõ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:¿ª·â²Ë
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÓÍÆÃÃæ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:°×²Ë
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:Öâ×Ó
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ËÉ×Ó
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:Ëá²Ë
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÉÕ¾Æ
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:¸ñÍßË¹
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÔªÏü
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:ÊÁ×Ó
+ 10176: 2014-05-09 00:30:56 wordcloud 65 result:É°¹ø
+ 10176: 2014-05-09 00:30:56 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:33:24 base 17 test open
+ 10176: 2014-05-09 00:33:26 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10176: 2014-05-09 00:33:26 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:33:26 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10176: 2014-05-09 00:33:26 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:33:26 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10176: 2014-05-09 00:33:26 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10176: 2014-05-09 00:33:26 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:¹ø°üÈâ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ºì³¦
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:¼¦µ°¸â
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:¶³Àæ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:Ïã¹Ï
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:·¬ÇÑ½´
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:·ÛÌõ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÀäÃæ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÏÚ±ı
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:µ¶Óã
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:°åÃæ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:¹ŞÍ·
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:°ü·¹
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:´ó´Ğ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÃæÌõ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:¿ª·â²Ë
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÓÍÆÃÃæ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:°×²Ë
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:Öâ×Ó
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ËÉ×Ó
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:Ëá²Ë
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÉÕ¾Æ
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:¸ñÍßË¹
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÔªÏü
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:ÊÁ×Ó
+ 10176: 2014-05-09 00:33:26 wordcloud 65 result:É°¹ø
+ 10176: 2014-05-09 00:33:26 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:39:11 base 17 test open
+ 10176: 2014-05-09 00:39:13 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10176: 2014-05-09 00:39:13 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:39:13 execute 79 (0.003) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10176: 2014-05-09 00:39:13 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:39:13 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10176: 2014-05-09 00:39:13 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10176: 2014-05-09 00:39:13 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:¹ø°üÈâ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ºì³¦
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:¼¦µ°¸â
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:¶³Àæ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:Ïã¹Ï
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:·¬ÇÑ½´
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:·ÛÌõ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÀäÃæ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÏÚ±ı
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:µ¶Óã
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:°åÃæ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:¹ŞÍ·
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:°ü·¹
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:´ó´Ğ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÃæÌõ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:¿ª·â²Ë
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÓÍÆÃÃæ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:°×²Ë
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:Öâ×Ó
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ËÉ×Ó
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:Ëá²Ë
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÉÕ¾Æ
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:¸ñÍßË¹
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÔªÏü
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:ÊÁ×Ó
+ 10176: 2014-05-09 00:39:13 wordcloud 65 result:É°¹ø
+ 10176: 2014-05-09 00:39:13 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:39:16 cal_pmi 36 kind:all sex: time: province:ºÓÄÏ cal_pmi begin:
+ 10176: 2014-05-09 00:39:16 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:39:16 execute 79 (0.001) select content from cache where province = 'ºÓÄÏ' and sex = '' and time = '' and kind = 'all'; args=(u'\u6cb3\u5357', u'', u'', u'all')
+ 10176: 2014-05-09 00:39:16 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:39:16 cal_pmi 44 kind:all sex: time: province:ºÓÄÏ in cache:
+ 10176: 2014-05-09 00:39:16 cal_pmi 95 kind:all sex: time: province:ºÓÄÏ cal_pmi end:
+ 10176: 2014-05-09 00:39:16 wordcloud 55 request info sex: time: province:ºÓÄÏ kind:all 
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:»âÃæ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:À±ÌÀ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ºúÀ±ÌÀ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:µ­Ë®Óã
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ß¦ÃæÆ¤
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:Ë®Ï¯
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÂéÌÇ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:³´Ã×
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:´óÅÌ¼¦
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:âÉ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:³ô¸É×Ó
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:Ã«¼â
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÌÇ¶¹
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÍÁ¶¹·Û
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:³´¼¦
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:¿¾Ãæ½î
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:¶¹¸¯ÌÀ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:¼åµ°
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:Ã«¶Ç
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:»±»¨
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:É½é«
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÂóÀöËØ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:Ãî´à½Ç
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÓÍÂó²Ë
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÉÕ±ı
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:¼¦µ°Ãæ
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:¸Ç½½·¹
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:ÀğÓã
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:Ïã´»
+ 10176: 2014-05-09 00:39:16 wordcloud 65 result:»ğÍÈ
+ 10176: 2014-05-09 00:39:16 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:39:19 cal_pmi 36 kind:all sex: time: province:ËÄ´¨ cal_pmi begin:
+ 10176: 2014-05-09 00:39:19 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:39:19 execute 79 (0.002) select content from cache where province = 'ËÄ´¨' and sex = '' and time = '' and kind = 'all'; args=(u'\u56db\u5ddd', u'', u'', u'all')
+ 10176: 2014-05-09 00:39:19 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:39:19 cal_pmi 44 kind:all sex: time: province:ËÄ´¨ in cache:
+ 10176: 2014-05-09 00:39:19 cal_pmi 95 kind:all sex: time: province:ËÄ´¨ cal_pmi end:
+ 10176: 2014-05-09 00:39:19 wordcloud 55 request info sex: time: province:ËÄ´¨ kind:all 
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ºæ¸â
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ÜñÃæ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ºÄ¶ùÓã
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Ã°²Ë
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:²§²§¼¦
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:±ù·Û
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Ëñ×Ó
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:È¼Ãæ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:¸ÇÍë²è
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Ë®Ãæ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Á¹¸â
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:·Ê³¦
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Â±²Ë
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ÑÅÓã
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ÍÃÍ·
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:õ²Ôã
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:»Ø¹øÈâ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:÷­Óã
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Ğ¡°×²Ë
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:°×Èâ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Ã«¶Ç
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ËÖÈâ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ôø¶¹
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Áú³­ÊÖ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ôØôÎ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:¼¦µ°Ãæ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:À°Èâ
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:Á¹Ïº
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:èÁèË
+ 10176: 2014-05-09 00:39:19 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10176: 2014-05-09 00:39:19 wordcloud 72 wordcloud done!
+ 10176: 2014-05-09 00:39:21 cal_pmi 36 kind:all sex: time: province:ËÄ´¨ cal_pmi begin:
+ 10176: 2014-05-09 00:39:21 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10176: 2014-05-09 00:39:21 execute 79 (0.001) select content from cache where province = 'ËÄ´¨' and sex = '' and time = '' and kind = 'all'; args=(u'\u56db\u5ddd', u'', u'', u'all')
+ 10176: 2014-05-09 00:39:21 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10176: 2014-05-09 00:39:21 cal_pmi 44 kind:all sex: time: province:ËÄ´¨ in cache:
+ 10176: 2014-05-09 00:39:21 cal_pmi 95 kind:all sex: time: province:ËÄ´¨ cal_pmi end:
+ 10176: 2014-05-09 00:39:21 wordcloud 55 request info sex: time: province:ËÄ´¨ kind:all 
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ºæ¸â
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ÜñÃæ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ºÄ¶ùÓã
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Ã°²Ë
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:²§²§¼¦
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:±ù·Û
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Ëñ×Ó
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:È¼Ãæ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:¸ÇÍë²è
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Ë®Ãæ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Á¹¸â
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:·Ê³¦
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Â±²Ë
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ÑÅÓã
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ÍÃÍ·
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:õ²Ôã
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:»Ø¹øÈâ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:÷­Óã
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Ğ¡°×²Ë
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:°×Èâ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Ã«¶Ç
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ËÖÈâ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ôø¶¹
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Áú³­ÊÖ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ôØôÎ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:¼¦µ°Ãæ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:À°Èâ
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:Á¹Ïº
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:èÁèË
+ 10176: 2014-05-09 00:39:21 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10176: 2014-05-09 00:39:21 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:42:51 debug 21 debug open
+ 10908: 2014-05-09 00:42:53 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:42:53 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:42:53 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:42:53 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:42:53 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:42:53 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:42:53 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:42:53 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:42:53 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:44:20 debug 21 debug open
+ 10908: 2014-05-09 00:44:24 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:44:24 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:44:24 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:44:24 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:44:24 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:44:24 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:44:24 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:44:24 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:44:24 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:44:27 cal_pmi 36 kind:all sex: time: province:ºÓÄÏ cal_pmi begin:
+ 10908: 2014-05-09 00:44:27 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:44:27 execute 79 (0.001) select content from cache where province = 'ºÓÄÏ' and sex = '' and time = '' and kind = 'all'; args=(u'\u6cb3\u5357', u'', u'', u'all')
+ 10908: 2014-05-09 00:44:27 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:44:27 cal_pmi 44 kind:all sex: time: province:ºÓÄÏ in cache:
+ 10908: 2014-05-09 00:44:27 cal_pmi 95 kind:all sex: time: province:ºÓÄÏ cal_pmi end:
+ 10908: 2014-05-09 00:44:27 wordcloud 55 request info sex: time: province:ºÓÄÏ kind:all 
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:»âÃæ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:À±ÌÀ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ºúÀ±ÌÀ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:µ­Ë®Óã
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ß¦ÃæÆ¤
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:Ë®Ï¯
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÂéÌÇ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:³´Ã×
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:´óÅÌ¼¦
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:âÉ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:³ô¸É×Ó
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:Ã«¼â
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÌÇ¶¹
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÍÁ¶¹·Û
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:³´¼¦
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:¿¾Ãæ½î
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:¶¹¸¯ÌÀ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:¼åµ°
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:Ã«¶Ç
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:»±»¨
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:É½é«
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÂóÀöËØ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:Ãî´à½Ç
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÓÍÂó²Ë
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÉÕ±ı
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:¼¦µ°Ãæ
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:¸Ç½½·¹
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:ÀğÓã
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:Ïã´»
+ 10908: 2014-05-09 00:44:27 wordcloud 65 result:»ğÍÈ
+ 10908: 2014-05-09 00:44:27 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:44:28 get_content 131 get_content begin:
+ 10908: 2014-05-09 00:44:28 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÓÄÏ'  and food = '»âÃæ'  limit 0,100
+ 10908: 2014-05-09 00:44:28 execute 79 (0.062) select food,province,city,sex,content from basic_data where province = 'ºÓÄÏ'  and food = '»âÃæ'  limit 0,100; args=None
+ 10908: 2014-05-09 00:44:28 get_content 161 get_content end:
+ 10908: 2014-05-09 00:44:32 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:44:32 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:44:32 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:44:32 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:44:32 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:44:32 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:44:32 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:44:32 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:44:32 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:45:56 index 14 hello open
+ 10908: 2014-05-09 00:45:57 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:45:57 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:45:57 execute 79 (0.003) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:45:57 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:45:57 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:45:58 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:45:58 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:45:58 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:45:58 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:01 index 14 hello open
+ 10908: 2014-05-09 00:46:03 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:03 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:03 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:03 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:03 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:03 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:03 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:03 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:03 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:05 index 14 hello open
+ 10908: 2014-05-09 00:46:06 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:06 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:06 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:06 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:06 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:06 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:06 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:06 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:06 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:08 debug 21 debug open
+ 10908: 2014-05-09 00:46:09 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:09 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:09 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:09 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:09 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:09 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:09 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:09 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:09 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:20 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:20 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:20 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:20 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:20 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:20 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:20 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:20 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:20 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:30 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:30 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:30 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:30 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:30 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:30 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:30 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:30 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:30 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:43 debug 21 debug open
+ 10908: 2014-05-09 00:46:44 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:44 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:44 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:44 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:44 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:44 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:44 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:44 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:44 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:50 debug 21 debug open
+ 10908: 2014-05-09 00:46:51 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:51 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:51 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:51 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:51 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:51 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:51 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:51 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:51 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:55 debug 21 debug open
+ 10908: 2014-05-09 00:46:55 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:46:55 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:46:55 execute 79 (0.000) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:46:55 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:46:55 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:46:55 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:46:55 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:46:55 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:46:55 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:46:58 index 14 hello open
+ 10908: 2014-05-09 00:47:00 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:47:00 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:47:00 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:47:00 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:47:00 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:47:00 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:47:00 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:47:00 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:47:00 wordcloud 72 wordcloud done!
+ 10908: 2014-05-09 00:47:02 index 14 hello open
+ 10908: 2014-05-09 00:47:04 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 10908: 2014-05-09 00:47:04 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 10908: 2014-05-09 00:47:04 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 10908: 2014-05-09 00:47:04 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 10908: 2014-05-09 00:47:04 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 10908: 2014-05-09 00:47:04 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 10908: 2014-05-09 00:47:04 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:¹ø°üÈâ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ºì³¦
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:¼¦µ°¸â
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:¶³Àæ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:Ïã¹Ï
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:·¬ÇÑ½´
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:·ÛÌõ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÀäÃæ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÏÚ±ı
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:µ¶Óã
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:°åÃæ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:¹ŞÍ·
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:°ü·¹
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:´ó´Ğ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÃæÌõ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:¿ª·â²Ë
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÓÍÆÃÃæ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:°×²Ë
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÂéÀ±ÌÌ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:µ¶Ï÷Ãæ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:Öâ×Ó
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ËÉ×Ó
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:Ëá²Ë
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÉÕ¾Æ
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:¸ñÍßË¹
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÔªÏü
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:ÊÁ×Ó
+ 10908: 2014-05-09 00:47:04 wordcloud 65 result:É°¹ø
+ 10908: 2014-05-09 00:47:04 wordcloud 72 wordcloud done!
+ 13292: 2014-05-09 00:59:29 debug 21 debug open
+ 13292: 2014-05-09 00:59:31 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 13292: 2014-05-09 00:59:31 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 13292: 2014-05-09 00:59:31 execute 79 (0.003) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 13292: 2014-05-09 00:59:31 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 13292: 2014-05-09 00:59:31 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 13292: 2014-05-09 00:59:31 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 13292: 2014-05-09 00:59:31 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:¹ø°üÈâ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ºì³¦
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:¼¦µ°¸â
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:¶³Àæ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:Ïã¹Ï
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:·¬ÇÑ½´
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:·ÛÌõ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÀäÃæ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÏÚ±ı
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:µ¶Óã
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:°åÃæ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:¹ŞÍ·
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:°ü·¹
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:´ó´Ğ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÃæÌõ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:¿ª·â²Ë
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÓÍÆÃÃæ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:°×²Ë
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÂéÀ±ÌÌ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:µ¶Ï÷Ãæ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:Öâ×Ó
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ËÉ×Ó
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:Ëá²Ë
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÉÕ¾Æ
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:¸ñÍßË¹
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÔªÏü
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:ÊÁ×Ó
+ 13292: 2014-05-09 00:59:31 wordcloud 65 result:É°¹ø
+ 13292: 2014-05-09 00:59:31 wordcloud 72 wordcloud done!
+ 13292: 2014-05-09 00:59:34 get_content 131 get_content begin:
+ 13292: 2014-05-09 00:59:34 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 00:59:34 execute 79 (0.014) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 00:59:34 get_content 161 get_content end:
+ 13292: 2014-05-09 00:59:49 get_content 131 get_content begin:
+ 13292: 2014-05-09 00:59:49 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and hour(basic_data.createtime) >= 6 and hour(basic_data.createtime) <= 10  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 00:59:49 execute 79 (0.005) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and hour(basic_data.createtime) >= 6 and hour(basic_data.createtime) <= 10  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 00:59:49 get_content 161 get_content end:
+ 13292: 2014-05-09 01:00:03 get_content 131 get_content begin:
+ 13292: 2014-05-09 01:00:03 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and hour(basic_data.createtime) >= 6 and hour(basic_data.createtime) <= 10  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 01:00:03 execute 79 (0.002) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and hour(basic_data.createtime) >= 6 and hour(basic_data.createtime) <= 10  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 01:00:03 get_content 161 get_content end:
+ 13292: 2014-05-09 01:00:30 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 13292: 2014-05-09 01:00:30 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 13292: 2014-05-09 01:00:30 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 13292: 2014-05-09 01:00:30 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 13292: 2014-05-09 01:00:30 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 13292: 2014-05-09 01:00:30 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 13292: 2014-05-09 01:00:30 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:¹ø°üÈâ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ºì³¦
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:¼¦µ°¸â
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:¶³Àæ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:Ïã¹Ï
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:·¬ÇÑ½´
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:·ÛÌõ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÀäÃæ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÏÚ±ı
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:µ¶Óã
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:°åÃæ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:¹ŞÍ·
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:°ü·¹
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:´ó´Ğ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÃæÌõ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:¿ª·â²Ë
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÓÍÆÃÃæ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:°×²Ë
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÂéÀ±ÌÌ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:µ¶Ï÷Ãæ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:Öâ×Ó
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ËÉ×Ó
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:Ëá²Ë
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÉÕ¾Æ
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:¸ñÍßË¹
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÔªÏü
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:ÊÁ×Ó
+ 13292: 2014-05-09 01:00:30 wordcloud 65 result:É°¹ø
+ 13292: 2014-05-09 01:00:30 wordcloud 72 wordcloud done!
+ 13292: 2014-05-09 01:00:32 get_content 131 get_content begin:
+ 13292: 2014-05-09 01:00:32 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 01:00:32 execute 79 (0.003) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 01:00:32 get_content 161 get_content end:
+ 13292: 2014-05-09 01:00:51 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 13292: 2014-05-09 01:00:51 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 13292: 2014-05-09 01:00:51 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 13292: 2014-05-09 01:00:51 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 13292: 2014-05-09 01:00:51 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 13292: 2014-05-09 01:00:51 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 13292: 2014-05-09 01:00:51 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:¹ø°üÈâ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ºì³¦
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:¼¦µ°¸â
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:¶³Àæ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:Ïã¹Ï
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:·¬ÇÑ½´
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:·ÛÌõ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÀäÃæ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÏÚ±ı
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:µ¶Óã
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:°åÃæ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:¹ŞÍ·
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:°ü·¹
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:´ó´Ğ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÃæÌõ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:¿ª·â²Ë
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÓÍÆÃÃæ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:°×²Ë
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÂéÀ±ÌÌ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:µ¶Ï÷Ãæ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:Öâ×Ó
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ËÉ×Ó
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:Ëá²Ë
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÉÕ¾Æ
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:¸ñÍßË¹
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÔªÏü
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:ÊÁ×Ó
+ 13292: 2014-05-09 01:00:51 wordcloud 65 result:É°¹ø
+ 13292: 2014-05-09 01:00:51 wordcloud 72 wordcloud done!
+ 13292: 2014-05-09 01:00:55 get_content 131 get_content begin:
+ 13292: 2014-05-09 01:00:55 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 01:00:55 execute 79 (0.003) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 01:00:55 get_content 161 get_content end:
+ 13292: 2014-05-09 01:01:31 get_content 131 get_content begin:
+ 13292: 2014-05-09 01:01:31 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 01:01:31 execute 79 (0.004) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 01:01:31 get_content 161 get_content end:
+ 13292: 2014-05-09 01:01:37 index 14 hello open
+ 13292: 2014-05-09 01:01:38 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 13292: 2014-05-09 01:01:38 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 13292: 2014-05-09 01:01:38 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 13292: 2014-05-09 01:01:38 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 13292: 2014-05-09 01:01:38 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 13292: 2014-05-09 01:01:38 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 13292: 2014-05-09 01:01:38 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:¹ø°üÈâ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ºì³¦
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:¼¦µ°¸â
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:¶³Àæ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:Ïã¹Ï
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:·¬ÇÑ½´
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:·ÛÌõ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÀäÃæ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÏÚ±ı
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:µ¶Óã
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:°åÃæ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:¹ŞÍ·
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:°ü·¹
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:´ó´Ğ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÃæÌõ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:¿ª·â²Ë
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÓÍÆÃÃæ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:°×²Ë
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÂéÀ±ÌÌ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:µ¶Ï÷Ãæ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:Öâ×Ó
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ËÉ×Ó
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:Ëá²Ë
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÉÕ¾Æ
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:¸ñÍßË¹
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÔªÏü
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:ÊÁ×Ó
+ 13292: 2014-05-09 01:01:38 wordcloud 65 result:É°¹ø
+ 13292: 2014-05-09 01:01:38 wordcloud 72 wordcloud done!
+ 13292: 2014-05-09 01:02:52 get_content 131 get_content begin:
+ 13292: 2014-05-09 01:02:52 get_content 152 get_content sql:select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100
+ 13292: 2014-05-09 01:02:52 execute 79 (0.003) select food,province,city,sex,content from basic_data where province = 'ºÚÁú½­'  and food = '¹ø°üÈâ'  limit 0,100; args=None
+ 13292: 2014-05-09 01:02:52 get_content 161 get_content end:
+ 3584: 2014-05-09 11:10:02 index 14 hello open
+ 3584: 2014-05-09 11:10:05 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:10:05 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:10:05 execute 79 (0.004) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 3584: 2014-05-09 11:10:05 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:10:05 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:10:05 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:10:05 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:¹ø°üÈâ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ºì³¦
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:¼¦µ°¸â
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:¶³Àæ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:Ïã¹Ï
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:·¬ÇÑ½´
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:·ÛÌõ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:µ¶Óã
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:°åÃæ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:°ü·¹
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:´ó´Ğ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:¿ª·â²Ë
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÓÍÆÃÃæ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:µ¶Ï÷Ãæ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:Öâ×Ó
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ËÉ×Ó
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:Ëá²Ë
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÉÕ¾Æ
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:¸ñÍßË¹
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:10:05 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:10:05 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:11:40 cal_pmi 36 kind:all sex:man time: province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:11:40 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:11:40 execute 79 (0.017) select content from cache where province = 'ºÚÁú½­' and sex = 'man' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'man', u'', u'all')
+ 3584: 2014-05-09 11:11:40 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:11:40 cal_pmi 44 kind:all sex:man time: province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:11:40 cal_pmi 95 kind:all sex:man time: province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:11:40 wordcloud 55 request info sex:man time: province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:¹ø°üÈâ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:´ó´Ğ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ËÉ×Ó
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:Íã¶¹
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:Ëâ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:Ñ¼µ°
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:´óÃ×
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:¿óÈªË®
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:´óËâ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ÌÒ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:äÌÑòÈâ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:Ëá²Ë
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:´óÅÅµµ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:°ü×Ó
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ºĞ·¹
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ºúÂÜ²·
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:¿¾Èâ
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:ºìÅ£
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:µ°³´·¹
+ 3584: 2014-05-09 11:11:40 wordcloud 65 result:Å£Èâ
+ 3584: 2014-05-09 11:11:40 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:11:43 cal_pmi 36 kind:wine sex:man time: province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:11:43 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:11:43 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = 'man' and time = '' and kind = 'wine'; args=(u'\u9ed1\u9f99\u6c5f', u'man', u'', u'wine')
+ 3584: 2014-05-09 11:11:43 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:11:43 cal_pmi 44 kind:wine sex:man time: province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:11:43 cal_pmi 95 kind:wine sex:man time: province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:11:43 wordcloud 55 request info sex:man time: province:ºÚÁú½­ kind:wine 
+ 3584: 2014-05-09 11:11:43 wordcloud 65 result:¶ş¹øÍ·
+ 3584: 2014-05-09 11:11:43 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:11:43 wordcloud 65 result:ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:11:43 wordcloud 65 result:Ã©Ì¨
+ 3584: 2014-05-09 11:11:43 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:11:43 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:11:48 cal_pmi 36 kind:wine sex:man time: province: cal_pmi begin:
+ 3584: 2014-05-09 11:11:48 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:11:48 execute 79 (0.002) select content from cache where province = '' and sex = 'man' and time = '' and kind = 'wine'; args=(u'', u'man', u'', u'wine')
+ 3584: 2014-05-09 11:11:48 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:11:48 cal_pmi 44 kind:wine sex:man time: province: in cache:
+ 3584: 2014-05-09 11:11:48 cal_pmi 95 kind:wine sex:man time: province: cal_pmi end:
+ 3584: 2014-05-09 11:11:48 wordcloud 55 request info sex:man time: province: kind:wine 
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Ã©Ì¨
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:¼ÎÊ¿²®
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:°ÙÍş
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Ï²Á¦
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Ö¥»ªÊ¿
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:·üÌØ¼Ó
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:À­·Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÔúÆ¡
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ºÚ·½
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:¶ş¹øÍ·
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Ñó¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:°×¸É
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÉúÆ¡
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:°×À¼µØ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Xo
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:whisky
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÀÏ¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÁÒ¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:»Æ¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Ò¡Í·Íè
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ĞÛ»Æ¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Çàïı¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:±ùÆ¡¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:Çå¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:11:48 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:11:51 cal_pmi 36 kind:wine sex:woman time: province: cal_pmi begin:
+ 3584: 2014-05-09 11:11:51 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:11:51 execute 79 (0.018) select content from cache where province = '' and sex = 'woman' and time = '' and kind = 'wine'; args=(u'', u'woman', u'', u'wine')
+ 3584: 2014-05-09 11:11:51 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:11:51 cal_pmi 44 kind:wine sex:woman time: province: in cache:
+ 3584: 2014-05-09 11:11:51 cal_pmi 95 kind:wine sex:woman time: province: cal_pmi end:
+ 3584: 2014-05-09 11:11:51 wordcloud 55 request info sex:woman time: province: kind:wine 
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÇàÃ·¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Ìğ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:³¤µº±ù²è
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Ã×¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:¼¦Î²¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Ã·¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÉÕ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÀÏÓÑ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:°×ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Tequila
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:±ù²è
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Çå¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:±ùÆ¡¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Çàïı¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ĞÛ»Æ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Ò¡Í·Íè
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:»Æ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÁÒ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÀÏ¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:whisky
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:xo
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:°×À¼µØ
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:ÉúÆ¡
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:11:51 wordcloud 65 result:°×¸É
+ 3584: 2014-05-09 11:11:51 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:11:56 cal_pmi 36 kind:wine sex:man time: province: cal_pmi begin:
+ 3584: 2014-05-09 11:11:56 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:11:56 execute 79 (0.001) select content from cache where province = '' and sex = 'man' and time = '' and kind = 'wine'; args=(u'', u'man', u'', u'wine')
+ 3584: 2014-05-09 11:11:56 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:11:56 cal_pmi 44 kind:wine sex:man time: province: in cache:
+ 3584: 2014-05-09 11:11:56 cal_pmi 95 kind:wine sex:man time: province: cal_pmi end:
+ 3584: 2014-05-09 11:11:56 wordcloud 55 request info sex:man time: province: kind:wine 
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Ã©Ì¨
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:¼ÎÊ¿²®
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:°ÙÍş
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Ï²Á¦
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Ö¥»ªÊ¿
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:·üÌØ¼Ó
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:À­·Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÔúÆ¡
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ºÚ·½
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:¶ş¹øÍ·
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Ñó¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:°×¸É
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÉúÆ¡
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:°×À¼µØ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Xo
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:whisky
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÀÏ¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÁÒ¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:»Æ¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Ò¡Í·Íè
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ĞÛ»Æ¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Çàïı¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:±ùÆ¡¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:Çå¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:11:56 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:12:47 cal_pmi 36 kind:wine sex:woman time: province: cal_pmi begin:
+ 3584: 2014-05-09 11:12:47 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:12:47 execute 79 (0.002) select content from cache where province = '' and sex = 'woman' and time = '' and kind = 'wine'; args=(u'', u'woman', u'', u'wine')
+ 3584: 2014-05-09 11:12:47 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:12:47 cal_pmi 44 kind:wine sex:woman time: province: in cache:
+ 3584: 2014-05-09 11:12:47 cal_pmi 95 kind:wine sex:woman time: province: cal_pmi end:
+ 3584: 2014-05-09 11:12:47 wordcloud 55 request info sex:woman time: province: kind:wine 
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÇàÃ·¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Ìğ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:³¤µº±ù²è
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Ã×¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:¼¦Î²¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Ã·¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÉÕ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÀÏÓÑ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:°×ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Tequila
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:±ù²è
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Çå¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:±ùÆ¡¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Çàïı¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ĞÛ»Æ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Ò¡Í·Íè
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:»Æ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÁÒ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÀÏ¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:whisky
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:xo
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:°×À¼µØ
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:ÉúÆ¡
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:12:47 wordcloud 65 result:°×¸É
+ 3584: 2014-05-09 11:12:47 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:14:55 cal_pmi 36 kind:all sex: time: province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:14:55 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:14:55 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = '' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'', u'all')
+ 3584: 2014-05-09 11:14:55 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:14:55 cal_pmi 44 kind:all sex: time: province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:14:55 cal_pmi 95 kind:all sex: time: province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:14:55 wordcloud 55 request info sex: time: province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:¹ø°üÈâ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ºì³¦
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:¼¦µ°¸â
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:¶³Àæ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:Ïã¹Ï
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:·¬ÇÑ½´
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:·ÛÌõ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:µ¶Óã
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:°åÃæ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÍÁ¶¹Æ¬
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:°ü·¹
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:´ó´Ğ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:¿ª·â²Ë
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÓÍÆÃÃæ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:µ¶Ï÷Ãæ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:Öâ×Ó
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ËÉ×Ó
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:Ëá²Ë
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÉÕ¾Æ
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:¸ñÍßË¹
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:14:55 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:14:55 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:16:10 cal_pmi 36 kind:all sex: time: province:ºÓÄÏ cal_pmi begin:
+ 3584: 2014-05-09 11:16:10 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:16:10 execute 79 (0.018) select content from cache where province = 'ºÓÄÏ' and sex = '' and time = '' and kind = 'all'; args=(u'\u6cb3\u5357', u'', u'', u'all')
+ 3584: 2014-05-09 11:16:10 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:16:10 cal_pmi 44 kind:all sex: time: province:ºÓÄÏ in cache:
+ 3584: 2014-05-09 11:16:10 cal_pmi 95 kind:all sex: time: province:ºÓÄÏ cal_pmi end:
+ 3584: 2014-05-09 11:16:10 wordcloud 55 request info sex: time: province:ºÓÄÏ kind:all 
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:»âÃæ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:À±ÌÀ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ºúÀ±ÌÀ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:µ­Ë®Óã
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ß¦ÃæÆ¤
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:Ë®Ï¯
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÂéÌÇ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:³´Ã×
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:´óÅÌ¼¦
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:âÉ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:³ô¸É×Ó
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:Ã«¼â
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÌÇ¶¹
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÍÁ¶¹·Û
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:³´¼¦
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:¿¾Ãæ½î
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:¶¹¸¯ÌÀ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:¼åµ°
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:Ã«¶Ç
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:»±»¨
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:É½é«
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÂóÀöËØ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:Ãî´à½Ç
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÓÍÂó²Ë
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÉÕ±ı
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:¼¦µ°Ãæ
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:¸Ç½½·¹
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:ÀğÓã
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:Ïã´»
+ 3584: 2014-05-09 11:16:10 wordcloud 65 result:»ğÍÈ
+ 3584: 2014-05-09 11:16:10 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:16:27 cal_pmi 36 kind:all sex: time: province:±±¾© cal_pmi begin:
+ 3584: 2014-05-09 11:16:27 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:16:27 execute 79 (0.002) select content from cache where province = '±±¾©' and sex = '' and time = '' and kind = 'all'; args=(u'\u5317\u4eac', u'', u'', u'all')
+ 3584: 2014-05-09 11:16:27 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:16:27 cal_pmi 44 kind:all sex: time: province:±±¾© in cache:
+ 3584: 2014-05-09 11:16:27 cal_pmi 95 kind:all sex: time: province:±±¾© cal_pmi end:
+ 3584: 2014-05-09 11:16:27 wordcloud 55 request info sex: time: province:±±¾© kind:all 
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:Â±Öó
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:½ğ¶¦Ğù
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:±â¶¹ìËÃæ
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:Â±
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:³´¸Î¶ù
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:³´¸Î
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:°×Êí
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:¶¹Ö­
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:³´±ı
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:±¬¶Ç
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:¹¬±£¼¦¶¡
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:¼¦¶¡
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:Öâ×Ó
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÃÉ²Í
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÜîÏã
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:¿¾Ñü×Ó
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÑòÔÓÌÀ
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:´óÃ×Öà
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:¸Ç·¹
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:×ÏÃ×Öà
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÓÍ±ı
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:´òÂ±Ãæ
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:»ğÉÕ
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ËáÌÀÓã
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:Ïã´»
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:¼¦µ°¸ş
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÓÍÂó²Ë
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:ÓÍ²Ë
+ 3584: 2014-05-09 11:16:27 wordcloud 65 result:Ôæ¸â
+ 3584: 2014-05-09 11:16:27 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:16:56 cal_pmi 36 kind:drink sex: time: province:±±¾© cal_pmi begin:
+ 3584: 2014-05-09 11:16:56 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:16:56 execute 79 (0.002) select content from cache where province = '±±¾©' and sex = '' and time = '' and kind = 'drink'; args=(u'\u5317\u4eac', u'', u'', u'drink')
+ 3584: 2014-05-09 11:16:56 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:16:56 cal_pmi 44 kind:drink sex: time: province:±±¾© in cache:
+ 3584: 2014-05-09 11:16:56 cal_pmi 95 kind:drink sex: time: province:±±¾© cal_pmi end:
+ 3584: 2014-05-09 11:16:56 wordcloud 55 request info sex: time: province:±±¾© kind:drink 
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:Ïã²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:¹ûÕä
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:¿à¶¡²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:¸ñÍßË¹
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:Áú¾®
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:»ãÔ´
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:°×²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:èÖ×Ó²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÖñÒ¶Çà
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:Ôæ²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:±ùÕò
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:°×ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÂÌ²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÄÃÌú
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:¹ûÄà
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÂóÈé¾«
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:±ù²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ºì²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:Áú¾®²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÑÒ²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:·Ò´ï
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:Ã«¼â
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:±ÌÂİ´º
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:½¡Á¦±¦
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:´óÂó²è
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:¿ÉÀÖ
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:16:56 wordcloud 65 result:ÄûÃÊË®
+ 3584: 2014-05-09 11:16:56 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:16:59 cal_pmi 36 kind:drink sex:man time: province:±±¾© cal_pmi begin:
+ 3584: 2014-05-09 11:16:59 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:16:59 execute 79 (0.018) select content from cache where province = '±±¾©' and sex = 'man' and time = '' and kind = 'drink'; args=(u'\u5317\u4eac', u'man', u'', u'drink')
+ 3584: 2014-05-09 11:17:00 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:17:00 cal_pmi 44 kind:drink sex:man time: province:±±¾© in cache:
+ 3584: 2014-05-09 11:17:00 cal_pmi 95 kind:drink sex:man time: province:±±¾© cal_pmi end:
+ 3584: 2014-05-09 11:17:00 wordcloud 55 request info sex:man time: province:±±¾© kind:drink 
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:»ãÔ´
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:Ïã²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:Áú¾®
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:¸ñÍßË¹
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:±ùÕò
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ºìÅ£
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:½¡Á¦±¦
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÍõÀÏ¼ª
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:´¿¾»Ë®
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:¾Æ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:Å¨²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÂÌ²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:¿É¿Ú¿ÉÀÖ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:èÖ×Ó²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:±ù²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:·Ò´ï
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ºì²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:¿ÉÀÖ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:Ñ©±Ì
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:°×²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:¾Õ»¨²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:¹¦·ò²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÆÕ¶ı²è
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:ÒûÁÏ
+ 3584: 2014-05-09 11:17:00 wordcloud 65 result:Á¹²è
+ 3584: 2014-05-09 11:17:00 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:17:02 cal_pmi 36 kind:drink sex:woman time: province:±±¾© cal_pmi begin:
+ 3584: 2014-05-09 11:17:02 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:17:02 execute 79 (0.018) select content from cache where province = '±±¾©' and sex = 'woman' and time = '' and kind = 'drink'; args=(u'\u5317\u4eac', u'woman', u'', u'drink')
+ 3584: 2014-05-09 11:17:02 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:17:02 cal_pmi 44 kind:drink sex:woman time: province:±±¾© in cache:
+ 3584: 2014-05-09 11:17:02 cal_pmi 95 kind:drink sex:woman time: province:±±¾© cal_pmi end:
+ 3584: 2014-05-09 11:17:02 wordcloud 55 request info sex:woman time: province:±±¾© kind:drink 
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:¹ûÕä
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:Ôæ²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:Ïã²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:¹ûÄà
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:¿à¶¡²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÄÃÌú
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÑÒ²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:°×²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:èÖ×Ó²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:´óÂó²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:°×ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÄûÃÊË®
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÂÌ²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:¸ñÍßË¹
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÂóÈé¾«
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:±ù²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ºì²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:·Ò´ï
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:Âó²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:Áú¾®
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:¿¨²¼ÆæÅµ
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:±ùÕò
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:±ù·å
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:Å¯²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÎÚÁú²è
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:Ìğ¾Æ
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:¿ÉÀÖ
+ 3584: 2014-05-09 11:17:02 wordcloud 65 result:ÆÕ¶ı²è
+ 3584: 2014-05-09 11:17:02 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:17:12 cal_pmi 36 kind:all sex: time:morning province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:17:12 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:17:12 execute 79 (0.018) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'morning' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'morning', u'all')
+ 3584: 2014-05-09 11:17:12 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:17:12 cal_pmi 44 kind:all sex: time:morning province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:17:12 cal_pmi 95 kind:all sex: time:morning province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:17:12 wordcloud 55 request info sex: time:morning province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:¶¹¸¯ÄÔ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:°ÂÀû°Â
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:À°°ËÖà
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:°ü×Ó
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:â¨ºïÌÒ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÏÌ²Ë
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:¼¦µ°
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ºúÂÜ²·
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Ëâ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Ôç²Í
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ôÕ×Ó
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:¿¾Èâ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:¹·Èâ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÂÌ²è
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:ÖíÈâ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Ê³Æ·
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:Ãæ°ü
+ 3584: 2014-05-09 11:17:12 wordcloud 65 result:¹Ï×Ó
+ 3584: 2014-05-09 11:17:12 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:17:16 cal_pmi 36 kind:all sex: time:evening province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:17:16 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:17:16 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'evening' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'evening', u'all')
+ 3584: 2014-05-09 11:17:16 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:17:16 cal_pmi 44 kind:all sex: time:evening province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:17:16 cal_pmi 95 kind:all sex: time:evening province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:17:16 wordcloud 55 request info sex: time:evening province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:Å¨²è
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:²Î²è
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:Ö¥»ªÊ¿
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:Ğ·Öà
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ëçóÆÏÊ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÏÌ¹ÇÖà
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:Ñó¾Æ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:¿¾Ñü×Ó
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ºÚ·½
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:Ëá²ËÃæ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:gelato
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÂêÆæ¶ä
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÈâÆ¤
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:Åİ²è
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ºìÅ£
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:whisky
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:±­Ãæ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:³´Å£ºÓ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ôÖ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÀÏÓÑ·Û
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:À­²è
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:¸¯Öñ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:³´·Û
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:»ÆÁ«
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:·üÌØ¼Ó
+ 3584: 2014-05-09 11:17:16 wordcloud 65 result:³¤µº±ù²è
+ 3584: 2014-05-09 11:17:16 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:17:20 cal_pmi 36 kind:all sex: time:afternoon province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:17:20 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:17:20 execute 79 (0.019) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'afternoon' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'afternoon', u'all')
+ 3584: 2014-05-09 11:17:20 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:17:20 cal_pmi 44 kind:all sex: time:afternoon province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:17:20 cal_pmi 95 kind:all sex: time:afternoon province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:17:20 wordcloud 55 request info sex: time:afternoon province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:Ïº½È
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:µ¶Ï÷Ãæ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:äÌÑòÈâ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:´óÅÅµµ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÌÒ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:¿¾Èâ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:±ùÌÇºùÂ«
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÄûÃÊ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÏÌ²Ë
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:¿óÈªË®
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:¹ûÖ­
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ºìÉÕÈâ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:Î÷²Í
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÌÒ×Ó
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:·½±ãÃæ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÊíÆ¬
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:ÒûÁÏ
+ 3584: 2014-05-09 11:17:20 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:17:20 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:17:25 cal_pmi 36 kind:all sex: time:morning province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:17:25 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:17:25 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'morning' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'morning', u'all')
+ 3584: 2014-05-09 11:17:25 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:17:25 cal_pmi 44 kind:all sex: time:morning province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:17:25 cal_pmi 95 kind:all sex: time:morning province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:17:25 wordcloud 55 request info sex: time:morning province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:¶¹¸¯ÄÔ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:°ÂÀû°Â
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:À°°ËÖà
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:°ü×Ó
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:â¨ºïÌÒ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÏÌ²Ë
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:¼¦µ°
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ºúÂÜ²·
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Ëâ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Ôç²Í
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ôÕ×Ó
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:¿¾Èâ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:¹·Èâ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÂÌ²è
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:ÖíÈâ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Ê³Æ·
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:Ãæ°ü
+ 3584: 2014-05-09 11:17:25 wordcloud 65 result:¹Ï×Ó
+ 3584: 2014-05-09 11:17:25 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:19:24 cal_pmi 36 kind:all sex: time:noon province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:19:24 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:19:24 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'noon' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'noon', u'all')
+ 3584: 2014-05-09 11:19:24 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:19:24 cal_pmi 44 kind:all sex: time:noon province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:19:24 cal_pmi 95 kind:all sex: time:noon province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:19:24 wordcloud 55 request info sex: time:noon province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÖíÌã
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:¿à¹Ï
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ºĞ·¹
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ºúÂÜ²·
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:µ°³´·¹
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:·½±ãÃæ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:¹ûÖ­
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:Àæ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:Êß²Ë
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:±ı
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:·äÃÛ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:¿ÏµÂ»ù
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:Ìğµã
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:À±½·
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÊíÌõ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:±ı¸É
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÆûË®
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ËáÄÌ
+ 3584: 2014-05-09 11:19:24 wordcloud 65 result:ÂøÍ·
+ 3584: 2014-05-09 11:19:24 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:19:27 cal_pmi 36 kind:all sex: time:afternoon province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:19:27 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:19:27 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'afternoon' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'afternoon', u'all')
+ 3584: 2014-05-09 11:19:27 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:19:27 cal_pmi 44 kind:all sex: time:afternoon province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:19:27 cal_pmi 95 kind:all sex: time:afternoon province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:19:27 wordcloud 55 request info sex: time:afternoon province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:Ïº½È
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:µ¶Ï÷Ãæ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:äÌÑòÈâ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:´óÅÅµµ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÌÒ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:¿¾Èâ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:±ùÌÇºùÂ«
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÄûÃÊ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÏÌ²Ë
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:¿óÈªË®
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:¹ûÖ­
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ºìÉÕÈâ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:Î÷²Í
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÌÒ×Ó
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:·½±ãÃæ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÊíÆ¬
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:ÒûÁÏ
+ 3584: 2014-05-09 11:19:27 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:19:27 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:19:33 cal_pmi 36 kind:all sex: time:evening province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:19:33 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:19:33 execute 79 (0.001) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'evening' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'evening', u'all')
+ 3584: 2014-05-09 11:19:33 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:19:33 cal_pmi 44 kind:all sex: time:evening province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:19:33 cal_pmi 95 kind:all sex: time:evening province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:19:33 wordcloud 55 request info sex: time:evening province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:Å¨²è
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:²Î²è
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:Ö¥»ªÊ¿
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:Ğ·Öà
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ëçóÆÏÊ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÏÌ¹ÇÖà
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:Ñó¾Æ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:¿¾Ñü×Ó
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ºÚ·½
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:Ëá²ËÃæ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:gelato
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÂêÆæ¶ä
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÈâÆ¤
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:Åİ²è
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ºìÅ£
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:whisky
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:±­Ãæ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:³´Å£ºÓ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ôÖ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÀÏÓÑ·Û
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:À­²è
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:¸¯Öñ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:³´·Û
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:»ÆÁ«
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:ÏãéÄ
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:·üÌØ¼Ó
+ 3584: 2014-05-09 11:19:33 wordcloud 65 result:³¤µº±ù²è
+ 3584: 2014-05-09 11:19:33 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:19:40 cal_pmi 36 kind:all sex: time:afternoon province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:19:40 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:19:40 execute 79 (0.000) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'afternoon' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'afternoon', u'all')
+ 3584: 2014-05-09 11:19:40 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:19:40 cal_pmi 44 kind:all sex: time:afternoon province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:19:40 cal_pmi 95 kind:all sex: time:afternoon province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:19:40 wordcloud 55 request info sex: time:afternoon province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:Ïº½È
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:µ¶Ï÷Ãæ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÊÁ×Ó
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:äÌÑòÈâ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:´óÅÅµµ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÌÒ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:¿¾Èâ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:±ùÌÇºùÂ«
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÄûÃÊ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÏÌ²Ë
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:¿óÈªË®
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:¹ûÖ­
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ºìÉÕÈâ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:Î÷²Í
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÌÒ×Ó
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:·½±ãÃæ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÊíÆ¬
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:ÒûÁÏ
+ 3584: 2014-05-09 11:19:40 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:19:40 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:19:50 cal_pmi 36 kind:all sex: time:noon province:ºÚÁú½­ cal_pmi begin:
+ 3584: 2014-05-09 11:19:50 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:19:50 execute 79 (0.002) select content from cache where province = 'ºÚÁú½­' and sex = '' and time = 'noon' and kind = 'all'; args=(u'\u9ed1\u9f99\u6c5f', u'', u'noon', u'all')
+ 3584: 2014-05-09 11:19:50 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:19:50 cal_pmi 44 kind:all sex: time:noon province:ºÚÁú½­ in cache:
+ 3584: 2014-05-09 11:19:50 cal_pmi 95 kind:all sex: time:noon province:ºÚÁú½­ cal_pmi end:
+ 3584: 2014-05-09 11:19:50 wordcloud 55 request info sex: time:noon province:ºÚÁú½­ kind:all 
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÍÁ¶¹Ë¿
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:É°¹ø
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÖíÌã
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:¿à¹Ï
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ºĞ·¹
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ºúÂÜ²·
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:µ°³´·¹
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:°×²Ë
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:·½±ãÃæ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:¹ûÖ­
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:Àæ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:Êß²Ë
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:±ı
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:Õ¨½´Ãæ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:·äÃÛ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:¿ÏµÂ»ù
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:Ìğµã
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:À±½·
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÊíÌõ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:±ı¸É
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÆûË®
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ËáÄÌ
+ 3584: 2014-05-09 11:19:50 wordcloud 65 result:ÂøÍ·
+ 3584: 2014-05-09 11:19:50 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:00 cal_pmi 36 kind:all sex: time:morning province: cal_pmi begin:
+ 3584: 2014-05-09 11:20:00 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:00 execute 79 (0.001) select content from cache where province = '' and sex = '' and time = 'morning' and kind = 'all'; args=(u'', u'', u'morning', u'all')
+ 3584: 2014-05-09 11:20:00 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:00 cal_pmi 44 kind:all sex: time:morning province: in cache:
+ 3584: 2014-05-09 11:20:00 cal_pmi 95 kind:all sex: time:morning province: cal_pmi end:
+ 3584: 2014-05-09 11:20:00 wordcloud 55 request info sex: time:morning province: kind:all 
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:Ôç²Í
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:¾Â²Ë±ı
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ôÖ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ºúÀ±ÌÀ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:µ°±ı
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:²Ë°ü
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:Ë«»Æµ°
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÃæÎÑ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÓñÃ×Öà
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÓÍÌõ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:°è·Û
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:À±ÌÀ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:¶¹¸¯ÄÔ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:·ÛÌÀ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÓÍ±ı
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:¼¦µ°±ı
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ºÚÃ×Öà
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÄÌ»Æ°ü
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:³¦·Û
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÉÕÂó
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:Å´Ã×·¹
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:Å£Èâ·Û
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:À°°ËÖà
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÜñÃæ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:¶¹Æ¤
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÈÈ¸ÉÃæ
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:²èÒ¶µ°
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:ÌÀ·Û
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:¹û½´
+ 3584: 2014-05-09 11:20:00 wordcloud 65 result:¶ü¿é
+ 3584: 2014-05-09 11:20:00 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:05 cal_pmi 36 kind:all sex: time:afternoon province: cal_pmi begin:
+ 3584: 2014-05-09 11:20:05 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:05 execute 79 (0.001) select content from cache where province = '' and sex = '' and time = 'afternoon' and kind = 'all'; args=(u'', u'', u'afternoon', u'all')
+ 3584: 2014-05-09 11:20:05 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:05 cal_pmi 44 kind:all sex: time:afternoon province: in cache:
+ 3584: 2014-05-09 11:20:05 cal_pmi 95 kind:all sex: time:afternoon province: cal_pmi end:
+ 3584: 2014-05-09 11:20:05 wordcloud 55 request info sex: time:afternoon province: kind:all 
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÏÂÎç²è
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:¸ÇÍë²è
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Ì«Ñô±ı
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:²·²·ĞÇ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÂéôÙ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Ã·»¨¸â
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÏÉ×ÙÁÖ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ºæ¸â
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:¹ûÕä
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ºº±¤°ü
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:½ª×²ÄÌ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÑÒ²è
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Âó±ı
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ĞÇ±ùÀÖ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:°×Êí
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Î÷Ã·
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÂÌ¶¹±ı
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Ê¥´ú
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Ê³²Ä
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ËÖ±ı
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÜîÏã¶¹
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÇàÍÅ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Å£ÔşÌÇ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:·ïÀæËÖ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÎÚÔô
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÌáÀ­Ã×ËÕ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:°×²è
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÆÏÌÑèÖ
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:ÇàÃ·
+ 3584: 2014-05-09 11:20:05 wordcloud 65 result:Õá
+ 3584: 2014-05-09 11:20:05 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:08 cal_pmi 36 kind:all sex: time:noon province: cal_pmi begin:
+ 3584: 2014-05-09 11:20:08 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:08 execute 79 (0.001) select content from cache where province = '' and sex = '' and time = 'noon' and kind = 'all'; args=(u'', u'', u'noon', u'all')
+ 3584: 2014-05-09 11:20:08 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:08 cal_pmi 44 kind:all sex: time:noon province: in cache:
+ 3584: 2014-05-09 11:20:08 cal_pmi 95 kind:all sex: time:noon province: cal_pmi end:
+ 3584: 2014-05-09 11:20:08 wordcloud 55 request info sex: time:noon province: kind:all 
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ºĞ·¹
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ÕôÈâ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:·¹ÌÃ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ÏÌ²è
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Æ¡¾ÆÑ¼
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:¿ì²Í
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Ê¨×ÓÍ·
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:¸Ç·¹
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:öÑÓã
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ÍüÓÇ²İ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ìÒÌÀ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Ş§²Ë
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ĞÂ²è
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Áú¾®²è
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ËØÃæ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:²Ë²è
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:äş·Û
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Ä¾Í°·¹
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Î¶Ç§À­Ãæ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:¸Ç½½·¹
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ÃæÊ³
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:³¶Ãæ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ëçóÆÏÊ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:¿û»¨×Ñ
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Ñ¿²Ë
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Õ«²Ë
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:½æ²Ë·¹
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:ºìÉÕÓã
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:¿ª·â²Ë
+ 3584: 2014-05-09 11:20:08 wordcloud 65 result:Î÷ÇÛ
+ 3584: 2014-05-09 11:20:08 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:13 cal_pmi 36 kind:all sex: time:evening province: cal_pmi begin:
+ 3584: 2014-05-09 11:20:13 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:13 execute 79 (0.001) select content from cache where province = '' and sex = '' and time = 'evening' and kind = 'all'; args=(u'', u'', u'evening', u'all')
+ 3584: 2014-05-09 11:20:13 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:13 cal_pmi 44 kind:all sex: time:evening province: in cache:
+ 3584: 2014-05-09 11:20:13 cal_pmi 95 kind:all sex: time:evening province: cal_pmi end:
+ 3584: 2014-05-09 11:20:13 wordcloud 55 request info sex: time:evening province: kind:all 
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:³¤µº±ù²è
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÏÌ¹ÇÖà
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Íí²Í
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Ğ·Öà
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÔúÆ¡
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Íí·¹
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÇàÃ·¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:´óÅÅµµ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:¾ÆÍ·
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:¿¾Ñü×Ó
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:¼¦Î²¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:¿¾ÑòÅÅ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÀÊÄ·¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Ã·¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Å£±Ş
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:º£µ×ÀÌ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:¹û¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÏãÀ±Ğ·
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:³´Å£ºÓ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:°×ÆÏÌÑ¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÉúÆ¡
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:»Æ¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÉÕ¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Çå¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÑòÅÅ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÓãÉú
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:ÍşÊ¿¼É
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:±ùÆ¡¾Æ
+ 3584: 2014-05-09 11:20:13 wordcloud 65 result:Î§²Í
+ 3584: 2014-05-09 11:20:13 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:18 cal_pmi 36 kind:all sex: time: province:É½¶« cal_pmi begin:
+ 3584: 2014-05-09 11:20:18 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:18 execute 79 (0.003) select content from cache where province = 'É½¶«' and sex = '' and time = '' and kind = 'all'; args=(u'\u5c71\u4e1c', u'', u'', u'all')
+ 3584: 2014-05-09 11:20:18 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:18 cal_pmi 44 kind:all sex: time: province:É½¶« in cache:
+ 3584: 2014-05-09 11:20:18 cal_pmi 95 kind:all sex: time: province:É½¶« cal_pmi end:
+ 3584: 2014-05-09 11:20:18 wordcloud 55 request info sex: time: province:É½¶« kind:all 
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:ôÖ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:öÑÓã
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:¸òòÛ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:ÔúÆ¡
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:°Ç¼¦
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:¿¾Ãæ½î
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:³´¼¦
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:»±»¨
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:Å£Î²ÌÀ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:É½é«¸â
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:µ­Ë®Óã
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:Ã×Öà
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:ĞÓ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:ÌÇ¶¹
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:º£²Î
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:´óÃ×Öà
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:´ó´Ğ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:°×ÌÇ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:ËÉ»¨µ°
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:¼¦¼Ü
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:»ğÉÕ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:Ñ¼Àæ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:ÓÍ²Ë
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:Î÷¹Ï×Ó
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:°åÃæ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:Àï¼¹
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:¶¹¸¯Èé
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:½ªÌÀ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:Ëá²ËÃæ
+ 3584: 2014-05-09 11:20:18 wordcloud 65 result:¶¬Ôæ
+ 3584: 2014-05-09 11:20:18 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:28 cal_pmi 36 kind:all sex: time: province:ÄÚÃÉ¹Å cal_pmi begin:
+ 3584: 2014-05-09 11:20:28 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:28 execute 79 (0.018) select content from cache where province = 'ÄÚÃÉ¹Å' and sex = '' and time = '' and kind = 'all'; args=(u'\u5185\u8499\u53e4', u'', u'', u'all')
+ 3584: 2014-05-09 11:20:28 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:28 cal_pmi 44 kind:all sex: time: province:ÄÚÃÉ¹Å in cache:
+ 3584: 2014-05-09 11:20:28 cal_pmi 95 kind:all sex: time: province:ÄÚÃÉ¹Å cal_pmi end:
+ 3584: 2014-05-09 11:20:28 wordcloud 55 request info sex: time: province:ÄÚÃÉ¹Å kind:all 
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:İ¯Ãæ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÂéÌÇ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÃÉ²Í
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ìËÃæ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÉÕÂó
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:³È
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Á¹¸â
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:±ùÈª
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Ëâ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:äÌÑòÈâ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Ê¥´ú
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:¶¬¹Ï
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:»ğÍÈ³¦
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Íã¶¹
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:°Ë±¦Öà
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÄÌÀÒ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Èâ¼ĞâÉ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:°ÂÀû°Â
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÑòÈâ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Ëá²Ë
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Ö÷Ê³
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:Àæ
+ 3584: 2014-05-09 11:20:28 wordcloud 65 result:·ÊÅ£
+ 3584: 2014-05-09 11:20:28 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:36 cal_pmi 36 kind:all sex: time: province:Î÷²Ø cal_pmi begin:
+ 3584: 2014-05-09 11:20:36 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:36 execute 79 (0.002) select content from cache where province = 'Î÷²Ø' and sex = '' and time = '' and kind = 'all'; args=(u'\u897f\u85cf', u'', u'', u'all')
+ 3584: 2014-05-09 11:20:36 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:36 cal_pmi 44 kind:all sex: time: province:Î÷²Ø in cache:
+ 3584: 2014-05-09 11:20:36 cal_pmi 95 kind:all sex: time: province:Î÷²Ø cal_pmi end:
+ 3584: 2014-05-09 11:20:36 wordcloud 55 request info sex: time: province:Î÷²Ø kind:all 
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ôØôÎ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Ìğ²è
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ËÖÓÍ²è
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÃæÌõ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÌÒ×Ó
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Á¹Æ¤
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:µ°³´·¹
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÂøÍ·
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÄÌ²è
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Ê³Æ·
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:¼¦ÍÈ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:²è
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Æ¡¾Æ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÖíÈâ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÇÉ¿ËÁ¦
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:¼¦µ°
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ºì¾Æ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Ãæ°ü
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Å£Èâ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Å£ÄÌ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ËáÄÌ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:·½±ãÃæ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:°ü×Ó
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÔÂ±ı
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:»ğ¹ø
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:Ğ¡³Ô
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÁãÊ³
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:ÒûÁÏ
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:¶¹¸¯
+ 3584: 2014-05-09 11:20:36 wordcloud 65 result:±ı¸É
+ 3584: 2014-05-09 11:20:36 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:20:49 cal_pmi 36 kind:all sex: time: province:ĞÂ½® cal_pmi begin:
+ 3584: 2014-05-09 11:20:49 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:20:49 execute 79 (0.002) select content from cache where province = 'ĞÂ½®' and sex = '' and time = '' and kind = 'all'; args=(u'\u65b0\u7586', u'', u'', u'all')
+ 3584: 2014-05-09 11:20:49 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:20:49 cal_pmi 44 kind:all sex: time: province:ĞÂ½® in cache:
+ 3584: 2014-05-09 11:20:49 cal_pmi 95 kind:all sex: time: province:ĞÂ½® cal_pmi end:
+ 3584: 2014-05-09 11:20:49 wordcloud 55 request info sex: time: province:ĞÂ½® kind:all 
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:½·Âé¼¦
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:âÎ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:·ÛÌÀ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:³´Ã×·Û
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ĞÓ×Ó
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:´óÅÌ¼¦
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:°èÃæ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ß¦ÃæÆ¤
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:Ã×·Û
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:Ò°²Ë
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:Èâ¼ĞâÉ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:Á¹Æ¤
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ÎåÈÊ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:·¬ÇÑ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:³´Ãæ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:É½Öñ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ÆÏÌÑ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:Ã°²Ë
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:Ö÷Ê³
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:½ª
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ÅİâÉ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:·äÃÛ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:¶¹¸¯ÄÔ
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:°Ë±¦Öà
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:¿¾³á
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:ÁãÊ³
+ 3584: 2014-05-09 11:20:49 wordcloud 65 result:°àêª
+ 3584: 2014-05-09 11:20:49 wordcloud 72 wordcloud done!
+ 3584: 2014-05-09 11:21:01 cal_pmi 36 kind:all sex: time: province:ÄÚÃÉ¹Å cal_pmi begin:
+ 3584: 2014-05-09 11:21:01 cal_pmi 38 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s begin:
+ 3584: 2014-05-09 11:21:01 execute 79 (0.000) select content from cache where province = 'ÄÚÃÉ¹Å' and sex = '' and time = '' and kind = 'all'; args=(u'\u5185\u8499\u53e4', u'', u'', u'all')
+ 3584: 2014-05-09 11:21:01 cal_pmi 41 cache sql:select content from cache where province = %s and sex = %s and time = %s and kind = %s end:
+ 3584: 2014-05-09 11:21:01 cal_pmi 44 kind:all sex: time: province:ÄÚÃÉ¹Å in cache:
+ 3584: 2014-05-09 11:21:01 cal_pmi 95 kind:all sex: time: province:ÄÚÃÉ¹Å cal_pmi end:
+ 3584: 2014-05-09 11:21:01 wordcloud 55 request info sex: time: province:ÄÚÃÉ¹Å kind:all 
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:İ¯Ãæ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÂéÌÇ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÃÉ²Í
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ìËÃæ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÉÕÂó
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:³È
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Á¹¸â
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:±ùÈª
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Ëâ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:äÌÑòÈâ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Ê¥´ú
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:¶¬¹Ï
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÏÚ±ı
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:»ğÍÈ³¦
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:¹ŞÍ·
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:¾Â²Ë
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Íã¶¹
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:°Ë±¦Öà
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÄÌÀÒ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Èâ¼ĞâÉ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÂéÀ±ÌÌ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:°ÂÀû°Â
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÑòÈâ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Ëá²Ë
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÔªÏü
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Ö÷Ê³
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Ë®ÖóÓã
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:ÀäÃæ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:Àæ
+ 3584: 2014-05-09 11:21:01 wordcloud 65 result:·ÊÅ£
+ 3584: 2014-05-09 11:21:01 wordcloud 72 wordcloud done!
