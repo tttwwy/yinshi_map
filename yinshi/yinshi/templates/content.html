@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block search %}
+{% block container %}
 <div class="row-fluid">
 
 	<div class="span12">
@@ -111,13 +111,8 @@
 {% endautoescape %}
 {% endblock %}
 
-{% block map %}
-{% endblock %}
 
-{% block wordcloud %}
-{% endblock %}
-
-{% block other_js %}
+{% block js %}
 <script type="text/javascript">
 $(document).ready(function(){
 	(function($){

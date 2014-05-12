@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
 
 
 {% block wordcloud_js %}
@@ -21,6 +21,7 @@ function word_cloud(msg)
 				var param2 = $('#form-submit').serialize();
 				param2 += "&word=" + word;
 				window.location.href='./getcontent?' + param2;
+				window.open('./getcontent?' + param2);
 			 },  }
 			);
 }

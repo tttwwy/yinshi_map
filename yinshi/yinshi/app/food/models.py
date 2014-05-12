@@ -4,7 +4,10 @@ import MySQLdb,sys,re,pickle
 import logging
 # Create your models here.
 from django.db import connection
+import traceback
+import math
 
+table_name = "basic_data_new".decode("utf-8")
 enum = {"sex":
         {
         "woman":"sex = 'f'",
@@ -23,33 +26,50 @@ enum = {"sex":
 
         "time":
         {
-            "morning":"hour(basic_data.createtime) >= 6 and hour(basic_data.createtime) <= 10",
-            "noon":"hour(basic_data.createtime) >= 11 and hour(basic_data.createtime) <= 13",
-            "afternoon":"hour(basic_data.createtime) >= 14 and hour(basic_data.createtime) <= 17",
-            "evening":"hour(basic_data.createtime) >= 18 or hour(basic_data.createtime) <= 5"
+            "morning":"hour >= 6 and hour <= 10",
+            "noon":"hour >= 11 and hour <= 13",
+            "afternoon":"hour >= 14 and hour <= 17",
+            "evening":"hour >= 18 or hour <= 5"
         }
 
        }
-def cal_pmi(kind,sex,time,province):
+def cache_get(province,sex,time,kind):
+
     cursor = connection.cursor()
-    result = []
-    logging.info("kind:%s sex:%s time:%s province:%s cal_pmi begin:"%(kind,sex,time,province))
     cache_sql = "select content from cache where province = %s and sex = %s and time = %s and kind = %s"
-    logging.info("cache sql:%s begin:"%(cache_sql))
+    logging.info("cache_get sql:%s begin:"%(cache_sql))
     cursor.execute(cache_sql,(province,sex,time,kind))
     cache_result = cursor.fetchone()
-    logging.info("cache sql:%s end:"%(cache_sql))
-
+    logging.info("cache_get sql:%s end:"%(cache_sql))
     if cache_result:
-        logging.info("kind:%s sex:%s time:%s province:%s in cache:"%(kind,sex,time,province))
-        result = pickle.loads(cache_result[0])
+        return pickle.loads(cache_result[0])
     else:
+        return None
+
+
+
+def cache_insert(province,sex,time,kind,data):
+    cursor = connection.cursor()
+    binary = MySQLdb.Binary(pickle.dumps(data))
+    cache_sql = "insert into cache(province,sex,time,kind,content) values(%s,%s,%s,%s,%s)"
+    cursor.execute(cache_sql,(province,sex,time,kind,binary))
+
+def cal_pmi(kind,sex,time,province):
+    cursor = connection.cursor()
+    logging.info("kind:%s sex:%s time:%s province:%s cal_pmi begin:"%(kind,sex,time,province))
+    # cache_sql = "select content from cache where province = %s and sex = %s and time = %s and kind = %s"
+    # cursor.execute(cache_sql,(province,sex,time,kind))
+    result = cache_get(province,sex,time,kind)
+
+    if not result:
         logging.info("kind:%s sex:%s time:%s province:%s not in cache:"%(kind,sex,time,province))
         where = ""
         param = []
+        param_list = []
         kind_param = ""
         if province:
-            param.append("province = '%s'"%(province))
+            param.append("province = %s ")
+            param_list.append(province)
         if sex:
             param.append(enum["sex"][sex])
         if time:
@@ -66,93 +86,66 @@ def cal_pmi(kind,sex,time,province):
             kind_param = " and " + enum["kind"][kind]
 
         sql = '''select a.food,food_province_count,food_count,
-        food_province_count*(select count(*) from basic_data)/(food_count*(select count(*) from basic_data %s ))
+        food_province_count*(select count(*) from {table})/(food_count*(select count(*) from {table} {where_query} ))
         as result from
-        ((select food,province,count(food) as food_province_count from basic_data %s group by food having count(food) > 5)a
+        ((select food,province,count(food) as food_province_count from {table} {where_query} group by food having count(food) > 5)a
         inner join
-        (select food,count(food) as food_count from basic_data group by food having count(food) > 50)
-        b on a.food = b.food ) order by result desc limit 0,50'''%(where,where)
+        (select food,count(food) as food_count from {table} group by food having count(food) > 50)
+        b on a.food = b.food ) order by result desc limit 0,50'''.format(table = table_name,where_query = where)
 
         sql_yinshi = '''select distinct a.food,food_province_count,food_count,
-        food_province_count*(select count(*) from basic_data)/(food_count*(select count(*) from basic_data %s ))
+        food_province_count*(select count(*) from {table})/(food_count*(select count(*) from {table} {where_query} ))
         as result from
-        ((select food,province,count(food) as food_province_count from basic_data %s group by food having count(food) > 5)a
+        ((select food,province,count(food) as food_province_count from {table} {where_query} group by food having count(food) > 5)a
         inner join
-        (select food,count(food) as food_count from basic_data group by food having count(food) > 50)
-        b on a.food = b.food ),yinshi_dict where a.food = yinshi_dict.food %s order by result desc limit 0,50'''%(where,where,kind_param)
+        (select food,count(food) as food_count from {table} group by food having count(food) > 50)
+        b on a.food = b.food ),yinshi_dict where a.food = yinshi_dict.food %s order by result desc limit 0,50'''.format(table = table_name,where_query = where)
 
         logging.info("sql cal begin:%s"%(sql_yinshi))
 
-        cursor.execute(sql_yinshi)
+        cursor.execute(sql_yinshi,param_list)
         result = cursor.fetchall()
         logging.info("sql cal end:%s"%(sql_yinshi))
 
-        binary = MySQLdb.Binary(pickle.dumps(result))
-        cache_sql = "insert into cache(province,sex,time,kind,content) values(%s,%s,%s,%s,%s)"
-        # print cache_sql
-        cursor.execute(cache_sql,(province,sex,time,kind,binary))
+        cache_insert(province,sex,time,kind,result)
+
 
     logging.info("kind:%s sex:%s time:%s province:%s cal_pmi end:"%(kind,sex,time,province))
 
     return result
-def get_count(kind,word):
-    logging.info("get_content begin:")
-    key_search = ""
-    if kind == "province":
-        key_search = "province"
-    if kind == "hour":
-        key_search = "hour"
-
-    if kind == "month":
-        key_search = "month"
-
-
-    sql = "select food,count(food) from basic_data where food = %s group by %s"
-    logging.info("get_content sql:%s"%(sql))
-
-    cursor = connection.cursor()
-    cursor.execute(sql,(word,key_search))
-    food_count = cursor.fetchall()
-
-
-
-    logging.info("get_content end:")
-    list = []
-    for line in result:
-        temp_line = []
-        for item in line:
-            temp_line.append(item)
-        list.append(temp_line)
-
-    return list
 
 
 def get_content(sex,time,province,word):
+
     logging.info("get_content begin:")
     where = ""
     param = []
+    param_list = []
     if province:
-        param.append("province = '%s'"%(province))
+        param.append("province = %s")
+        param_list.append(province)
     if sex:
         param.append(enum["sex"][sex])
     if time:
         param.append(enum["time"][time])
     if word:
-        param.append("food = '%s'"%(word))
+        param.append("food = %s")
+        param_list.append(word)
     else:
         return []
 
     if param:
         for index,item in enumerate(param):
             if index == 0:
-                where += "where %s "%(item)
+                where += "where {0} ".format(item)
             else:
-                where += " and %s "%(item)
-    sql = "select food,province,city,sex,content from basic_data %s limit 0,100"%(where)
+                where += " and {0} ".format(item)
+    sql = "select food,province,city,sex,content from {table} {where_query} limit 0,100".format(table = table_name,where_query=where)
     logging.info("get_content sql:%s"%(sql))
 
     cursor = connection.cursor()
-    cursor.execute(sql)
+
+    cursor.execute(sql,param_list)
     result = cursor.fetchall()
     # for line in result:
     #     for item in line:
@@ -169,4 +162,66 @@ def get_content(sex,time,province,word):
     return list
 
 
+def analyse(kind,word):
+    try:
+        logging.info("get_word begin:")
+
+        sql = '''select {kind_query},count(id) from {table} where food = %s group by {kind_query} order by {kind_query} asc'''.format(table = table_name,kind_query=kind,word=word)
+        print sql
+        cursor = connection.cursor()
+        cursor.execute(sql,(word))
+        one = cursor.fetchall()
+        if len(one) < 1:
+            return []
+
+        total = cache_get("","","","all_"+kind)
+        if not total:
+            sql = '''select {kind_query},count(id) from {table}  group by {kind_query} order by {kind_query} asc'''.format(table = table_name,kind_query=kind)
+
+            cursor.execute(sql)
+            total = cursor.fetchall()
+            cache_insert("","","","all_"+kind,total)
+
+
+
+
+        one = {x[0]:int(x[1]) for x in one}
+        weight = {name:int(num) for name,num in total}
+
+
+        min_name,min_value = min({name:value*1.0/weight.get(name,1) for name,value in one.items()}.items(),key=lambda x:x[1])
+        print "min province:{0} min value:{1}".format(min_name,min_value)
+
+
+        for name,value in total:
+            one[name] = one.get(name,0) * weight[min_name]/weight.get(name,1)
+
+
+
+        result = []
+
+        for name,value in total:
+            print "name:{0} weight:{1} result:{2}".format(name,weight[name],one[name])
+        if kind == "month" or kind == "hour":
+            result = [one.get(name,0) for name,value in total]
+        elif kind == 'province':
+
+            list = [{ "name":name,"value":one.get(name,0)} for name,value in total]
+            min_value = min([x["value"] for x in list]    )
+
+
+            max_value = max([x["value"] for x in list]    )
+            if max_value > 100:
+                max_value = int((max_value+150)/100)*100
+
+
+
+            # print "min:{0} max:{1}".format(min_value,max_value)
+            result = {"min":min_value,
+                      "max":max_value,
+                      "list":list}
+        return result
+    except Exception, e:
+        print e
+        print traceback.format_exc()
 
