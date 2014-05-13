@@ -229,7 +229,7 @@ def analyse(kind,word):
         print traceback.format_exc()
 def average(list):
     if list:
-        return sum(list)/len(list)
+        return sum(list)*1.0/len(list)
     else:
         return 0
 
@@ -241,50 +241,48 @@ def stdev(list):
             sum_num += (item - ave)**2
     else:
         return 0
-    return (sum_num/len(list))**0.5
+    return (sum_num*1.0/len(list))**0.5
 def get_top(kind,one):
-    try:
-        k_list = {"month":0.6,"hour":0.6,"province":1.0}
-        top_list = {"month":0,"hour":6,"province":1}
-        dev_list = {"month":75,"hour":25,"province":100}
-        k = k_list[kind]
-        top = top_list[kind]
-        dev_min = dev_list[kind]
-        result = []
-        list_sort = sorted(one.values())
-        ave = average(list_sort)
-        dev = stdev(list_sort)
-        dev_ave = int(dev*100/ave)
-        if dev_ave < dev_min:
-            return result
 
-        if kind == "hour":
-            morning = 0
-            noon = 0
-            afternoon = 0
-            evening = 0
-            for hour,value in one.items():
-                if hour >= 6 and hour <= 10:
-                    morning += value
-                elif  hour >= 11 and hour <= 13:
-                    noon += value
-                elif hour >= 14 and hour <= 17:
-                    afternoon += value
-                elif hour >= 18 and hour <= 23:
-                    evening += value
-            morning = morning / 5
-            noon = noon / 3
-            afternoon = afternoon / 4
-            evening = evening / 5
-            hour_result = {"morning":morning,"noon":noon,"afternoon":afternoon,"evening":evening}
-            max_name,max_value = max(hour_result.items(),key = lambda  x:x[1])
-            result.append((max_name,max_value))
-        else:
-            for index,(name,value) in enumerate(sorted(one.items(),key = lambda x:x[1],reverse=True)):
-                if (index < top or index == 0) and value >= ave + dev * k:
-                    result.append((name,value))
-    except:
-        return []
+    k_list = {"month":0.6,"hour":0.6,"province":1.0}
+    top_list = {"month":0,"hour":6,"province":1}
+    dev_list = {"month":75,"hour":25,"province":100}
+    k = k_list[kind]
+    top = top_list[kind]
+    dev_min = dev_list[kind]
+    result = []
+    list_sort = sorted(one.values())
+    ave = average(list_sort)
+    dev = stdev(list_sort)
+    dev_ave = int(dev*100/ave)
+    if dev_ave < dev_min:
+        return result
+
+    if kind == "hour":
+        morning = 0
+        noon = 0
+        afternoon = 0
+        evening = 0
+        for hour,value in one.items():
+            if hour >= 6 and hour <= 10:
+                morning += value
+            elif  hour >= 11 and hour <= 13:
+                noon += value
+            elif hour >= 14 and hour <= 17:
+                afternoon += value
+            elif hour >= 18 and hour <= 23:
+                evening += value
+        morning = morning / 5
+        noon = noon / 3
+        afternoon = afternoon / 4
+        evening = evening / 5
+        hour_result = {"morning":morning,"noon":noon,"afternoon":afternoon,"evening":evening}
+        max_name,max_value = max(hour_result.items(),key = lambda  x:x[1])
+        result.append((max_name,max_value))
+    else:
+        for index,(name,value) in enumerate(sorted(one.items(),key = lambda x:x[1],reverse=True)):
+            if (index < top or index == 0) and value >= ave + dev * k:
+                result.append((name,value))
     return result
 
 # def get_top(one):
