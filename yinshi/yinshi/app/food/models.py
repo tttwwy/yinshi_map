@@ -55,62 +55,67 @@ def cache_insert(province,sex,time,kind,data):
     cursor.execute(cache_sql,(province,sex,time,kind,binary))
 
 def cal_pmi(kind,sex,time,province):
-    cursor = connection.cursor()
-    logging.info("kind:%s sex:%s time:%s province:%s cal_pmi begin:"%(kind,sex,time,province))
-    # cache_sql = "select content from cache where province = %s and sex = %s and time = %s and kind = %s"
-    # cursor.execute(cache_sql,(province,sex,time,kind))
-    result = cache_get(province,sex,time,kind)
+    try:
+        cursor = connection.cursor()
+        logging.info("kind:%s sex:%s time:%s province:%s cal_pmi begin:"%(kind,sex,time,province))
+        # cache_sql = "select content from cache where province = %s and sex = %s and time = %s and kind = %s"
+        # cursor.execute(cache_sql,(province,sex,time,kind))
+        result = cache_get(province,sex,time,kind)
 
-    if not result:
-        logging.info("kind:%s sex:%s time:%s province:%s not in cache:"%(kind,sex,time,province))
-        where = ""
-        param = []
-        param_list = []
-        kind_param = ""
-        if province:
-            param.append("province = %s ")
-            param_list.append(province)
-        if sex:
-            param.append(enum["sex"][sex])
-        if time:
-            param.append(enum["time"][time])
+        if not result:
+            logging.info("kind:%s sex:%s time:%s province:%s not in cache:"%(kind,sex,time,province))
+            where = ""
+            param = []
+            param_list = []
+            kind_param = ""
+            if province:
+                param.append("province = %s ")
+                param_list.append(province)
+            if sex:
+                param.append(enum["sex"][sex])
+            if time:
+                param.append(enum["time"][time])
 
-        if param:
-            for index,item in enumerate(param):
-                if index == 0:
-                    where += "where %s "%(item)
-                else:
-                    where += " and %s "%(item)
+            if param:
+                for index,item in enumerate(param):
+                    if index == 0:
+                        where += "where %s "%(item)
+                    else:
+                        where += " and %s "%(item)
+            param_list = param_list+ param_list
+            if kind:
+                kind_param = " and " + enum["kind"][kind]
+            # param_list.append(kind_param)
 
-        if kind:
-            kind_param = " and " + enum["kind"][kind]
+            sql = '''select a.food,food_province_count,food_count,
+            food_province_count*(select count(*) from {table})/(food_count*(select count(*) from {table} {where_query} ))
+            as result from
+            ((select food,province,count(food) as food_province_count from {table} {where_query} group by food having count(food) > 5)a
+            inner join
+            (select food,count(food) as food_count from {table} group by food having count(food) > 50)
+            b on a.food = b.food ) order by result desc limit 0,50'''.format(table = table_name,where_query = where)
 
-        sql = '''select a.food,food_province_count,food_count,
-        food_province_count*(select count(*) from {table})/(food_count*(select count(*) from {table} {where_query} ))
-        as result from
-        ((select food,province,count(food) as food_province_count from {table} {where_query} group by food having count(food) > 5)a
-        inner join
-        (select food,count(food) as food_count from {table} group by food having count(food) > 50)
-        b on a.food = b.food ) order by result desc limit 0,50'''.format(table = table_name,where_query = where)
+            sql_yinshi = '''select distinct a.food,food_province_count,food_count,
+            food_province_count*(select count(*) from {table})/(food_count*(select count(*) from {table} {where_query} ))
+            as result from
+            ((select food,province,count(food) as food_province_count from {table} {where_query} group by food having count(food) > 5)a
+            inner join
+            (select food,count(food) as food_count from {table} group by food having count(food) > 50)
+            b on a.food = b.food ),yinshi_dict where a.food = yinshi_dict.food {kind_query} order by result desc limit 0,50'''.format(table = table_name,where_query = where,kind_query = kind_param)
 
-        sql_yinshi = '''select distinct a.food,food_province_count,food_count,
-        food_province_count*(select count(*) from {table})/(food_count*(select count(*) from {table} {where_query} ))
-        as result from
-        ((select food,province,count(food) as food_province_count from {table} {where_query} group by food having count(food) > 5)a
-        inner join
-        (select food,count(food) as food_count from {table} group by food having count(food) > 50)
-        b on a.food = b.food ),yinshi_dict where a.food = yinshi_dict.food %s order by result desc limit 0,50'''.format(table = table_name,where_query = where)
+            logging.info("sql cal begin:%s"%(sql_yinshi))
 
-        logging.info("sql cal begin:%s"%(sql_yinshi))
+            cursor.execute(sql_yinshi,param_list)
+            result = cursor.fetchall()
+            logging.info("sql cal end:%s"%(sql_yinshi))
 
-        cursor.execute(sql_yinshi,param_list)
-        result = cursor.fetchall()
-        logging.info("sql cal end:%s"%(sql_yinshi))
-
-        cache_insert(province,sex,time,kind,result)
+            cache_insert(province,sex,time,kind,result)
 
 
-    logging.info("kind:%s sex:%s time:%s province:%s cal_pmi end:"%(kind,sex,time,province))
+        logging.info("kind:%s sex:%s time:%s province:%s cal_pmi end:"%(kind,sex,time,province))
+    except Exception, e:
+        print e
+        print traceback.format_exc()
 
     return result
 

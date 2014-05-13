@@ -3,7 +3,7 @@
 {% block search %}
 <div class="row-fluid">
 <br>
-<br>
+<br>	
 	<div class="span12">
 
 		<form class="form-inline"  id="form-submit" align="center">
@@ -187,7 +187,7 @@ function set_month(list)
 			trigger: 'axis'
 		},
 		legend: {
-			data:['词频']
+			data:['热度']
 		},
 		toolbox: {
 			show : true,
@@ -214,7 +214,7 @@ function set_month(list)
 		],
 		series : [
 		{
-			name:'词频',
+			name:'热度',
 			type:'bar',
 			data:list
 
@@ -237,7 +237,7 @@ function set_hour(list)
 			trigger: 'axis'
 		},
 		legend: {
-			data:['词频']
+			data:['热度']
 		},
 		toolbox: {
 			show : true,
@@ -264,7 +264,7 @@ function set_hour(list)
 		],
 		series : [
 		{
-			name:'词频',
+			name:'热度',
 			type:'line',
 			data:list
 
@@ -312,7 +312,7 @@ function set_province(list)
 		},
 		series : [
 		{
-			name: '词频',
+			name: '热度',
 			type: 'map',
 			mapType: 'china',
 			itemStyle:{
