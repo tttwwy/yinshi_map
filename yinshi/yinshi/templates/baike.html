@@ -105,6 +105,10 @@ function send_ajax(kind) {
 				{
 					text += top[x][0] + "月 ";
 				}
+				if (text == "")
+				{
+					text = "无";
+				}
 				$("#month_text").text("集中月份:" + text);
 				month_list = result;
 				if (currentChartName == 'mainMap1')
@@ -122,6 +126,10 @@ function send_ajax(kind) {
 				{
 					text += dict[top[x][0]] + " ";
 				}
+				if (text == "")
+				{
+					text = "无";
+				}
 				$("#hour_text").text("高峰时间:" + text);
 				hour_list = result;
 				if (currentChartName == 'mainMap2')
@@ -136,6 +144,10 @@ function send_ajax(kind) {
 				for (x in top)
 				{
 					text += top[x][0];
+				}
+				if (text == "")
+				{
+					text = "无";
 				}
 				$("#province_text").text("特色省份:" + text);
 				province_list = result;
