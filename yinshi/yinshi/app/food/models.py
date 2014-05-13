@@ -170,7 +170,7 @@ def analyse(kind,word):
         where food = %s group by {kind_query} having count(id) > 3 order by {kind_query}  asc'''.format(table = table_name,kind_query=kind,word=word)
         # print sql
         cursor = connection.cursor()
-        cursor.execute(sql,(word))
+        cursor.execute(sql,(word,))
         one = cursor.fetchall()
         print len(one)
         if len(one) < 1:
