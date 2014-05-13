@@ -22,26 +22,28 @@
 <div class="row-fluid">
 
 	<div class="span12">
+		<h4><span id = "province_text"></span></h4>
 		<h4><span id = "month_text"></span></h4>
 		<h4><span id = "hour_text"></span></h4>
-		<h4><span id = "province_text"></span></h4>
+		
 
 	</div>
 </div>
 <div class="tabbable"> <!-- Only required for left/right tabs -->
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab1" data-toggle="tab" name = "mainMap1">月统计分布图</a></li>
+		<li class="active"><a href="#tab3" data-toggle="tab" name = "mainMap3">省份统计分布图</a></li>
+		<li><a href="#tab1" data-toggle="tab" name = "mainMap1">月统计分布图</a></li>
 		<li><a href="#tab2" data-toggle="tab" name = "mainMap2">小时统计分布图</a></li>
-		<li><a href="#tab3" data-toggle="tab" name = "mainMap3">省份统计分布图</a></li>
+		
 	</ul>
 	<div class="tab-content">
-		<div class="tab-pane active" id="tab1">
+		<div class="tab-pane" id="tab1">
 			<div class = "main" id="mainMap1" style="height: 500px; cursor: default;"></div>
 		</div>
 		<div class="tab-pane" id="tab2">
 			<div class = "main" id="mainMap2" style="height: 500px; cursor: default;"></div>
 		</div>
-		<div class="tab-pane" id="tab3">
+		<div class="tab-pane active" id="tab3">
 			<div class = "main" id="mainMap3" style="height: 500px; cursor: default;"></div>
 		</div>
 	</div>
@@ -131,7 +133,7 @@ function send_ajax(kind) {
 				{
 					text = "无";
 				}
-				$("#hour_text").text("高峰时间:" + text);
+				$("#hour_text").text("高峰时段:" + text);
 				hour_list = result;
 				if (currentChartName == 'mainMap2')
 				{
@@ -150,7 +152,7 @@ function send_ajax(kind) {
 				{
 					text = "无";
 				}
-				$("#province_text").text("特色省份:" + text);
+				$("#province_text").text("主要分布省份:" + text);
 				province_list = result;
 				if (currentChartName == 'mainMap3')
 				{
@@ -356,16 +358,17 @@ require(
 
         // --- 地图 ---
         myChart = ec;
-        currentChartName = 'mainMap1';
-        currentMyChart = ec.init(document.getElementById('mainMap1'));
+        currentChartName = 'mainMap3';
+        currentMyChart = ec.init(document.getElementById('mainMap3'));
         currentMyChart.showLoading({
         	text : "数据正在读取中..."
         });		
         // myChart2 = ec.init(document.getElementById('mainMap2'));
         // myChart3 = ec.init(document.getElementById('mainMap3'));
+        $.ajax(send_ajax('province'));
         $.ajax(send_ajax('month'));
         $.ajax(send_ajax('hour'));
-        $.ajax(send_ajax('province'));
+        
     }
     );
 

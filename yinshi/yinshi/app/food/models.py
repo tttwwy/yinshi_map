@@ -7,7 +7,7 @@ from django.db import connection
 import traceback
 import math
 
-table_name = "basic_data_new".decode("utf-8")
+table_name = "basic_data_new"
 enum = {"sex":
         {
         "woman":"sex = 'f'",
@@ -16,12 +16,12 @@ enum = {"sex":
 
           "kind":
         {
-             "all":"category in ('2')".decode("utf-8"),
-            "wine":"category in ('名酒','啤酒','烈酒','药酒','酒','酒类','酿酒','预调酒','鸡尾酒')".decode("utf-8"),
-             "fruit":"category in ('水果')".decode("utf-8"),
-            "drink":"category in ('饮品','果汁','饮料','茶饮料','茶')".decode("utf-8"),
-            "tea":"category in ('茶','茶文化')".decode("utf-8"),
-             "food":"category in ('小吃')".decode("utf-8"),
+             "all":"category in ('2')",
+            "wine":"category in ('名酒','啤酒','烈酒','药酒','酒','酒类','酿酒','预调酒','鸡尾酒')",
+             "fruit":"category in ('水果')",
+            "drink":"category in ('饮品','果汁','饮料','茶饮料','茶')",
+            "tea":"category in ('茶','茶文化')",
+             "food":"category in ('小吃')",
         },
 
         "time":
