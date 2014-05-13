@@ -140,7 +140,7 @@ def get_content(sex,time,province,word):
                 where += "where {0} ".format(item)
             else:
                 where += " and {0} ".format(item)
-    sql = "select food,province,city,sex,content from {table} {where_query} limit 0,100".format(table = table_name,where_query=where)
+    sql = "select food,user_id,FROM_UNIXTIME(UNIX_TIMESTAMP(createtime),'%%Y-%%m-%%d %%h:%%i:%%s'),province,city,sex,content from {table} {where_query} limit 0,100".format(table = table_name,where_query=where)
     logging.info("get_content sql:%s"%(sql))
 
     cursor = connection.cursor()

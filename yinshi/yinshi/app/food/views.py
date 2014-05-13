@@ -35,11 +35,14 @@ def get_content(request):
 
     result = models.get_content(sex,time,province,word)
     for index,line in enumerate(result):
-        if line[3] and line[3] == "f":
-            result[index][3] = "女"
-        if line[3] and line[3] == "m":
-            result[index][3] = "男"
-        result[index][4] = line[4].replace(line[0],"<span style='color:red'>" + line[0] + "</span>")
+        if line[5] and line[5] == "f":
+            result[index][5] = "女"
+        if line[5] and line[5] == "m":
+            result[index][5] = "男"
+        result[index][6] = line[6].replace(line[0],"<span style='color:red'>" + line[0] + "</span>")
+        result[index][1] = "<span style='color:red'><a href='http://weibo.com/u/{0}'>{0}</a></span>".format(line[1])
+
+
     t = get_template('content.html')
     context = Context({'content':result})
     html = t.render(context)
