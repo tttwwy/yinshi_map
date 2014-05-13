@@ -18,7 +18,7 @@ urlpatterns = patterns('',
     url(r'^search/$',views.wordcloud),
     url(r'^analyse/(.*)?',views.analyse),
     url(r'^cache',views.gen_cache),
-    url(r'^test',views.test),
+    url(r'^baike',views.baike),
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),

@@ -159,7 +159,7 @@ function word_cloud(msg)
 				var word = item[0];
 				var param2 = $('#form-submit').serialize();
 				param2 += "&word=" + word;
-				window.open('./test?' + param2);
+				window.open('./baike?' + param2);
 				// window.location.href='./test?' + param2;
 			 },  }
 			);
@@ -227,12 +227,14 @@ require(
         		selectedMode : 'single',
         		itemStyle:{
         			normal:{label:{show:true,textStyle: {
-        			    color: 'black'          // 图例文字颜色
-        			}},areaStyle:{color:'#0099CC'}},
+        			    color: 'black' 
+        			}},
+        			areaStyle:{color:'#0099CC'}
+        		},
         			emphasis:{label:{show:true}},
-        			textStyle: {
-        			    color: 'blue'          // 图例文字颜色
-        			}
+        			// textStyle: {
+        			//     color: 'blue'          // 图例文字颜色
+        			// }
         		},
         		data:[
         		{name:'黑龙江',selected:true}

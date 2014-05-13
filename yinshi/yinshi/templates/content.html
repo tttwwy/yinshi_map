@@ -1,5 +1,5 @@
-{% extends "base.html" %}
-{% block container %}
+{% extends "baike.html" %}
+{% block search %}
 <div class="row-fluid">
 
 	<div class="span12">
@@ -83,7 +83,9 @@
 		</form>
 	</div>
 </div>
+{% endblock %}
 
+{% block other_container %}
 {% autoescape off %}
 
 <div class="row-fluid">
@@ -112,7 +114,7 @@
 {% endblock %}
 
 
-{% block js %}
+{% block baike_other_js %}
 <script type="text/javascript">
 $(document).ready(function(){
 	(function($){

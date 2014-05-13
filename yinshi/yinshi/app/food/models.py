@@ -166,13 +166,15 @@ def analyse(kind,word):
     try:
         logging.info("get_word begin:")
 
-        sql = '''select {kind_query},count(id) from {table} where food = %s group by {kind_query} order by {kind_query} asc'''.format(table = table_name,kind_query=kind,word=word)
-        print sql
+        sql = '''select {kind_query},count(id) from {table}
+        where food = %s group by {kind_query} having count(id) > 3 order by {kind_query}  asc'''.format(table = table_name,kind_query=kind,word=word)
+        # print sql
         cursor = connection.cursor()
         cursor.execute(sql,(word))
         one = cursor.fetchall()
+        print len(one)
         if len(one) < 1:
-            return []
+            return  ({"min":0,"max":0,"list":[]},[])
 
         total = cache_get("","","","all_"+kind)
         if not total:
@@ -190,7 +192,7 @@ def analyse(kind,word):
 
 
         min_name,min_value = min({name:value*1.0/weight.get(name,1) for name,value in one.items()}.items(),key=lambda x:x[1])
-        print "min province:{0} min value:{1}".format(min_name,min_value)
+        # print "min province:{0} min value:{1}".format(min_name,min_value)
 
 
         for name,value in total:
@@ -200,8 +202,7 @@ def analyse(kind,word):
 
         result = []
 
-        for name,value in total:
-            print "name:{0} weight:{1} result:{2}".format(name,weight[name],one[name])
+        top = get_top(kind,one)
         if kind == "month" or kind == "hour":
             result = [one.get(name,0) for name,value in total]
         elif kind == 'province':
@@ -220,8 +221,90 @@ def analyse(kind,word):
             result = {"min":min_value,
                       "max":max_value,
                       "list":list}
-        return result
+
+
+        return (result,top)
     except Exception, e:
         print e
         print traceback.format_exc()
+def average(list):
+    if list:
+        return sum(list)/len(list)
+    else:
+        return 0
+
+def stdev(list):
+    if list:
+        ave = average(list)
+        sum_num = 0
+        for item in list:
+            sum_num += (item - ave)**2
+    else:
+        return 0
+    return (sum_num/len(list))**0.5
+def get_top(kind,one):
+    k_list = {"month":0.6,"hour":0.6,"province":1.0}
+    top_list = {"month":0,"hour":6,"province":1}
+    dev_list = {"month":75,"hour":25,"province":100}
+    k = k_list[kind]
+    top = top_list[kind]
+    dev_min = dev_list[kind]
+    result = []
+    list_sort = sorted(one.values())
+    ave = average(list_sort)
+    dev = stdev(list_sort)
+    dev_ave = int(dev*100/ave)
+    if dev_ave < dev_min:
+        return result
+
+    if kind == "hour":
+        morning = 0
+        noon = 0
+        afternoon = 0
+        evening = 0
+        for hour,value in one.items():
+            if hour >= 6 and hour <= 10:
+                morning += value
+            elif  hour >= 11 and hour <= 13:
+                noon += value
+            elif hour >= 14 and hour <= 17:
+                afternoon += value
+            elif hour >= 18 and hour <= 23:
+                evening += value
+        morning = morning / 5
+        noon = noon / 3
+        afternoon = afternoon / 4
+        evening = evening / 5
+        hour_result = {"morning":morning,"noon":noon,"afternoon":afternoon,"evening":evening}
+        max_name,max_value = max(hour_result.items(),key = lambda  x:x[1])
+        result.append((max_name,max_value))
+    else:
+        for index,(name,value) in enumerate(sorted(one.items(),key = lambda x:x[1],reverse=True)):
+            if (index < top or index == 0) and value >= ave + dev * k:
+                result.append((name,value))
+    return result
+
+# def get_top(one):
+#     result = []
+#     if not one:
+#         return result
+#     data = one.copy()
+#     ave = average(one.values())
+#     dev = stdev(one.values())
+#     result.append(("average",int(ave)))
+#     result.append(("dev",int(dev)))
+#     result.append(("dev/average",int(dev*100/ave)))
+#
+#     while True:
+#         ave = average(data.values())
+#         dev = stdev(data.values())
+#
+#         if data and ave > 0 and int(dev*100/ave) > 90:
+#             max_name,max_value = max(data.items(),key=lambda x:x[1])
+#             print max_name,max_value," ave:",ave,"dev:",dev,"dev/ave",dev*100/ave
+#             result.append((max_name,max_value))
+#             del data[max_name]
+#         else:
+#             break
+#     return result
 

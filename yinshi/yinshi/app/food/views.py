@@ -23,8 +23,8 @@ def debug(request):
 
 def compare(request):
     return render_to_response('compare.html')
-def test(request):
-    return render_to_response('test.html')
+def baike(request):
+    return render_to_response('baike.html')
 
 
 def get_content(request):
@@ -46,18 +46,16 @@ def get_content(request):
     return HttpResponse(html)
 
 def analyse(request,kind):
-    word = request.GET.get('word')
+    word = request.GET.get('word',"")
     list = [1, 1, 1, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
+    top = []
     if kind == "month":
-        list = models.analyse(kind,word)
-        return HttpResponse(json.dumps(list))
+        list,top = models.analyse(kind,word)
     elif kind == "hour":
-        list = models.analyse(kind,word)
-        return HttpResponse(json.dumps(list))
+        list,top = models.analyse(kind,word)
     elif kind == "province":
-        list = models.analyse(kind,word)
-        return HttpResponse(json.dumps(list))
-
+        list,top = models.analyse(kind,word)
+    return HttpResponse(json.dumps({"list":list,"top":top}))
 def wordcloud(request):
     sex = request.GET.get('sex')
     time = request.GET.get('time')
