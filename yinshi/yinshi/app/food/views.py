@@ -47,10 +47,8 @@ def get_content(request):
 
 def analyse(request,kind):
     word = request.GET.get('word',"")
-    logging.info("word:{0}".format(word))
-    logging.info("kind:{0}".format(kind))
-    list = [1, 1, 1, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3]
-    top = []
+    # logging.info("word:{0}".format(word.decode('utf-8')))
+    # logging.info("kind:{0}".format(kind.decode('utf-8')))
     if kind == "month":
         list,top = models.analyse(kind,word)
     elif kind == "hour":
