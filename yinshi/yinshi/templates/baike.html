@@ -75,7 +75,7 @@ function get_url_param(name)
 
 	var r = url.substr(1).match(reg);
 
-	if (r!=null) return unescape(r[2]); return null; 
+	if (r!=null) return unescape(r[2]); return ""; 
 }
 $(document).ready(function(){
 	word = get_url_param('word');
@@ -179,11 +179,12 @@ var currentMyChart;
 var currentChartName;
 function set_month(list)
 {
+	word = get_url_param("word")
 	console.log("set_month");
 	currentMyChart.setOption({
 		title : {
-			text: '月份统计分布图',
-			subtext: ''
+			text: '月份统计分布图:' + word,
+			subtext:""
 		},
 		tooltip : {
 			trigger: 'axis'
@@ -229,11 +230,12 @@ function set_month(list)
 
 function set_hour(list)
 {
+	word = get_url_param("word")
 	console.log("set_hour");
 	currentMyChart.setOption({
 		title : {
-			text: '小时统计分布图',
-			subtext: ''
+			text: '小时统计分布图:'+ word,
+			subtext: ""
 		},
 		tooltip : {
 			trigger: 'axis'
@@ -279,11 +281,12 @@ function set_hour(list)
 
 function set_province(list)
 {
+	word = get_url_param("word")
 	console.log("set_province");
 	currentMyChart.setOption({
 		title : {
-			text: '省份统计分布图',
-			subtext: '',
+			text: '省份统计分布图:' + word,
+			subtext: "",
 			x:'center'
 		},
 		tooltip : {
