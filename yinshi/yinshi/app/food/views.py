@@ -60,11 +60,11 @@ def analyse(request,kind):
         list,top = models.analyse(kind,word)
     return HttpResponse(json.dumps({"list":list,"top":top}))
 def wordcloud(request):
-    sex = request.GET.get('sex')
-    time = request.GET.get('time')
-    province = request.GET.get('province')
-    kind = request.GET.get('kind')
-    month = request.GET.get('month')
+    sex = request.GET.get('sex',"")
+    time = request.GET.get('time',"")
+    province = request.GET.get('province',"")
+    kind = request.GET.get('kind',"")
+    month = request.GET.get('month',"")
     result = models.cal_pmi(kind,sex,time,province,month)
 
     logging.info("request info sex:%s time:%s province:%s kind:%s "%(sex,time,province,kind))
