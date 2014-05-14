@@ -64,7 +64,8 @@ def wordcloud(request):
     time = request.GET.get('time')
     province = request.GET.get('province')
     kind = request.GET.get('kind')
-    result = models.cal_pmi(kind,sex,time,province)
+    month = request.GET.get('month')
+    result = models.cal_pmi(kind,sex,time,province,month)
 
     logging.info("request info sex:%s time:%s province:%s kind:%s "%(sex,time,province,kind))
 
@@ -76,10 +77,11 @@ def wordcloud(request):
             break
         list["weight"].append([line[0],35-index])
         list["color"][line[0]] = int(line[2])
-        logging.info("result:%s"%(line[0]))
+        # logging.info("result:%s"%(line[0]))
+        logging.info("word:{0} frequence:{1} pmi:{2}".format(line[0],line[2],line[3]))
 
 
-    sort_color = sorted(list["color"].items(),key=lambda a:a[0],reverse=False)
+    sort_color = sorted(list["color"].items(),key=lambda a:a[1],reverse=False)
     for index,(key,value) in enumerate(sort_color):
         list["color"][key] = get_color(0,len(sort_color)-1,index)
 

@@ -54,13 +54,13 @@ def cache_insert(province,sex,time,kind,data):
     cache_sql = "insert into cache(province,sex,time,kind,content) values(%s,%s,%s,%s,%s)"
     cursor.execute(cache_sql,(province,sex,time,kind,binary))
 
-def cal_pmi(kind,sex,time,province):
+def cal_pmi(kind,sex,time,province,month):
     try:
         cursor = connection.cursor()
         logging.info("kind:%s sex:%s time:%s province:%s cal_pmi begin:"%(kind,sex,time,province))
         # cache_sql = "select content from cache where province = %s and sex = %s and time = %s and kind = %s"
         # cursor.execute(cache_sql,(province,sex,time,kind))
-        result = cache_get(province,sex,time,kind)
+        result = cache_get(province,sex,month+time,kind)
 
         if not result:
             logging.info("kind:%s sex:%s time:%s province:%s not in cache:"%(kind,sex,time,province))
@@ -75,7 +75,8 @@ def cal_pmi(kind,sex,time,province):
                 param.append(enum["sex"][sex])
             if time:
                 param.append(enum["time"][time])
-
+            if month:
+                param.append("month = {0} ".format(month))
             if param:
                 for index,item in enumerate(param):
                     if index == 0:
@@ -109,10 +110,10 @@ def cal_pmi(kind,sex,time,province):
             result = cursor.fetchall()
             logging.info("sql cal end:%s"%(sql_yinshi))
 
-            cache_insert(province,sex,time,kind,result)
+            cache_insert(province,sex,month+time,kind,result)
 
 
-        logging.info("kind:%s sex:%s time:%s province:%s cal_pmi end:"%(kind,sex,time,province))
+        logging.info("kind:%s sex:%s time:%s month:%s province:%s cal_pmi end:"%(kind,sex,time,month,province))
     except Exception, e:
         print e
         print traceback.format_exc()
