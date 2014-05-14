@@ -77,8 +77,7 @@ def wordcloud(request):
             break
         list["weight"].append([line[0],35-index])
         list["color"][line[0]] = int(line[2])
-        # logging.info("result:%s"%(line[0]))
-        logging.info("word:{0} frequence:{1} pmi:{2}".format(line[0],line[2],line[3]))
+        # logging.info("word:{0} frequence:{1} pmi:{2}".format(line[0],line[2],line[3]))
 
 
     sort_color = sorted(list["color"].items(),key=lambda a:a[1],reverse=False)
