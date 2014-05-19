@@ -23,7 +23,11 @@ def base(request):
 
 def debug(request):
     logging.info("debug open")
-    return render_to_response('debug.html')
+    logging.info("hello open")
+    t = get_template('debug.html')
+    context = Context({'top_words':models.get_hot_query(4)})
+    html = t.render(context)
+    return HttpResponse(html)
 
 def compare(request):
     return render_to_response('compare.html')
@@ -31,7 +35,11 @@ def baike(request):
     word = request.GET.get('word',"")
     if word:
         models.insert_query_history(word)
-    return render_to_response('baike.html')
+
+    t = get_template('baike.html')
+    context = Context({'top_words':models.get_hot_query(4)})
+    html = t.render(context)
+    return HttpResponse(html)
 
 
 def get_content(request):
