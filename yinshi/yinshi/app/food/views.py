@@ -12,7 +12,11 @@ import logging
 
 def index(request):
     logging.info("hello open")
-    return render_to_response('index.html')
+    t = get_template('index.html')
+    context = Context({'top_words':models.get_hot_query(4)})
+    html = t.render(context)
+    return HttpResponse(html)
+    # return render_to_response('index.html')
 def base(request):
     logging.info("test open")
     return render_to_response('base.html')
@@ -24,6 +28,9 @@ def debug(request):
 def compare(request):
     return render_to_response('compare.html')
 def baike(request):
+    word = request.GET.get('word',"")
+    if word:
+        models.insert_query_history(word)
     return render_to_response('baike.html')
 
 
@@ -49,9 +56,10 @@ def get_content(request):
     return HttpResponse(html)
 
 def analyse(request,kind):
-    word = request.GET.get('word',"")
+
     # logging.info("word:{0}".format(word.decode('utf-8')))
     # logging.info("kind:{0}".format(kind.decode('utf-8')))
+    word = request.GET.get('word',"")
     if kind == "month":
         list,top = models.analyse(kind,word)
     elif kind == "hour":

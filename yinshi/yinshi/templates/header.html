@@ -44,13 +44,11 @@
 				</button>
 
 				<div class="nav-collapse collapse">
-					<p class="navbar-text pull-right">
-						<!-- Logged in as <a href="#" class="navbar-link">Username</a> -->
-					</p>
+
 
 					<ul class="nav">
 						<li><a class="brand" href="/">微博饮食地图</a></li>
-				
+
 						<li><a href="http://www.8wss.com"><i class="icon-home icon-white"></i>八维首页</a></li>
 
 						<li><a href="http://ys.8wss.com"><i class=" icon-glass icon-white"></i>饮食地图</a></li>
@@ -65,11 +63,17 @@
 					</ul>
 
 
-						<form class="navbar-form pull-right" action="/baike" id="baike_form-submit">
-							<input class="span3" type="text" placeholder="请输入饮食词汇" id = "food_word" name="word">
-							<button id = "food_baike"  class="btn btn-primary" ><i class="icon-search"></i>搜索</button> 
-						</form>
-				
+					<div class="navbar-text pull-right">	
+						{% for word in top_words %}
+						<a href="/baike?word={{ word}}">{{ word}}</a>	
+						{% endfor %}					
+
+					</div>
+					<form class="navbar-form pull-right" action="/baike" id="baike_form-submit">
+						<input class="span3" type="text" placeholder="请输入饮食词汇" id = "food_word" name="word">
+						<button id = "food_baike"  class="btn btn-primary" ><i class="icon-search"></i>搜索</button> 
+					</form>
+
 				</div><!--/.nav-collapse -->
 			</div>
 		</div>

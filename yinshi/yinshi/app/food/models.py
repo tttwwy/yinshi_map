@@ -46,9 +46,22 @@ def cache_get(province,sex,time,kind):
     else:
         return None
 
+def get_hot_query(num):
+    cursor = connection.cursor()
+    sql = "SELECT word FROM `query_history` where month(time)  >= month(current_timestamp) - 1 group by word order by count(*) desc limit 0,{0}".format(num)
+    cursor.execute(sql)
+    sql_result = cursor.fetchall()
+    result = []
+    for item in sql_result:
+        result.append(item[0])
+    return result
 
+def insert_query_history(word):
+    cursor = connection.cursor()
+    sql = "insert into query_history(word) values(%s)"
+    cursor.execute(sql,(word,))
 
-def cache_insert(province,sex,time,kind,data):
+def insert_cache(province,sex,time,kind,data):
     cursor = connection.cursor()
     binary = MySQLdb.Binary(pickle.dumps(data))
     cache_sql = "insert into cache(province,sex,time,kind,content) values(%s,%s,%s,%s,%s)"
@@ -110,7 +123,7 @@ def cal_pmi(kind,sex,time,province,month):
             result = cursor.fetchall()
             logging.info("sql cal end:%s"%(sql_yinshi))
 
-            cache_insert(province,sex,month+time,kind,result)
+            insert_cache(province,sex,month+time,kind,result)
 
 
         logging.info("kind:%s sex:%s time:%s month:%s province:%s cal_pmi end:"%(kind,sex,time,month,province))
@@ -188,7 +201,7 @@ def analyse(kind,word):
 
             cursor.execute(sql)
             total = cursor.fetchall()
-            cache_insert("","","","all_"+kind,total)
+            insert_cache("","","","all_"+kind,total)
 
 
 
