@@ -27,6 +27,7 @@
 
 	<!-- // <script type="text/javascript" src="/static/js/sexylightbox.v2.3.jquery.min.js"></script> -->
 	<script src="/static/js/bootstrap.min.js"></script>
+	<script src="/static/js/bootstrap-typeahead.js"></script>
 	<script src="/static/js/wordcloud2.js"></script>
 	<script src="/static/js/esl.js"></script>
 
@@ -70,7 +71,7 @@
 
 					</div>
 					<form class="navbar-form pull-right" action="/baike" id="baike_form-submit">
-						<input class="span3" type="text" placeholder="请输入饮食词汇" id = "food_word" name="word">
+						<input autocomplete="off" class="span3" type="text" id = "food_word" name="word">
 						<button id = "food_baike"  class="btn btn-primary" ><i class="icon-search"></i>搜索</button> 
 					</form>
 
@@ -78,3 +79,41 @@
 			</div>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+	// $(document).ready(function() {
+	    // $('#food_word').typeahead({
+	    //     source: [
+	    //         { id: 1, name: 'Toronto' },
+	    //         { id: 2, name: 'Montreal' },
+	    //         { id: 3, name: 'New York' },
+	    //         { id: 4, name: 'Buffalo' },
+	    //         { id: 5, name: 'Boston' },
+	    //         { id: 6, name: 'Columbus' },
+	    //         { id: 7, name: 'Dallas' },
+	    //         { id: 8, name: 'Vancouver' },
+	    //         { id: 9, name: 'Seattle' },
+	    //         { id: 10, name: 'Los Angeles' }
+	    //     ]
+	    // });
+
+
+$(document).ready(
+
+	function() {
+		// alert("a");
+		$('#food_word').typeahead({
+			ajax: {
+				url: '/autocomplate',
+				triggerLength: 0,
+				method: 'post',
+	              preProcess: function(data) { // 必需的， 功能类似于process()方法
+	                   //将json字符串转为json对象   
+	                 
+	                   return $.parseJSON(data);  
+	               }  
+	           }
+	       });
+	}
+	);
+</script>

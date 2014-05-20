@@ -41,12 +41,19 @@ def baike(request):
     html = t.render(context)
     return HttpResponse(html)
 
+def get_top_word(request):
+    result = models.get_hot_query(1000)
+    list = []
+    for index,word in enumerate(result):
+        list.append({"id":index,"name":word})
+    return HttpResponse(json.dumps(list))
+
 
 def get_content(request):
     sex = request.GET.get('sex')
     time = request.GET.get('time')
     province = request.GET.get('province')
-    word = request.GET.get('word')
+    word = request.GET.get('word').strip()
 
     result = models.get_content(sex,time,province,word)
     for index,line in enumerate(result):
@@ -67,7 +74,8 @@ def analyse(request,kind):
 
     # logging.info("word:{0}".format(word.decode('utf-8')))
     # logging.info("kind:{0}".format(kind.decode('utf-8')))
-    word = request.GET.get('word',"")
+    word = request.GET.get('word',"").strip()
+    kind = kind
     if kind == "month":
         list,top = models.analyse(kind,word)
     elif kind == "hour":
