@@ -53,7 +53,7 @@ def get_hot_query(num):
     sql_result = cursor.fetchall()
     result = []
     for item in sql_result:
-        result.append(" " + item[0])
+        result.append(item[0])
     return result
 
 def insert_query_history(word):
