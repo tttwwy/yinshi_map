@@ -181,15 +181,19 @@ def get_content(sex,time,province,word):
     return list
 
 
-def analyse(kind,word):
+def analyse(kind,word,attrs):
     try:
         logging.info("get_word begin:")
-
+        attr_query = ""
+        params = [word]
+        for attr in attrs:
+            attr_query += " and content like %s "
+            params.append('%'+ attr + '%')
         sql = '''select {kind_query},count(id) from {table}
-        where food = %s group by {kind_query} having count(id) > 3 order by {kind_query}  asc'''.format(table = table_name,kind_query=kind,word=word)
+        where food = %s {attr_query} group by {kind_query} having count(id) > 3 order by {kind_query}  asc'''.format(table = table_name,kind_query=kind,word=word,attr_query=attr_query)
         # print sql
         cursor = connection.cursor()
-        cursor.execute(sql,(word,))
+        cursor.execute(sql,params)
         one = cursor.fetchall()
         print len(one)
         if len(one) < 1:

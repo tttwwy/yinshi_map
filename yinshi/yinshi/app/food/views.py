@@ -74,14 +74,17 @@ def analyse(request,kind):
 
     # logging.info("word:{0}".format(word.decode('utf-8')))
     # logging.info("kind:{0}".format(kind.decode('utf-8')))
-    word = request.GET.get('word',"").strip()
-    kind = kind
+    words = request.GET.get('word',"").strip().split(" ")
+
+    word = words[0]
+    attrs = words[1:]
+
     if kind == "month":
-        list,top = models.analyse(kind,word)
+        list,top = models.analyse(kind,word,attrs)
     elif kind == "hour":
-        list,top = models.analyse(kind,word)
+        list,top = models.analyse(kind,word,attrs)
     elif kind == "province":
-        list,top = models.analyse(kind,word)
+        list,top = models.analyse(kind,word,attrs)
     return HttpResponse(json.dumps({"list":list,"top":top}))
 def wordcloud(request):
     sex = request.GET.get('sex',"")
