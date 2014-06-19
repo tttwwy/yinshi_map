@@ -33,6 +33,8 @@ enum = {"sex":
         }
 
        }
+
+# 获取缓存信息
 def cache_get(province,sex,time,kind):
 
     cursor = connection.cursor()
@@ -46,6 +48,7 @@ def cache_get(province,sex,time,kind):
     else:
         return None
 
+# 获取热门检索房屋中
 def get_hot_query(num):
     cursor = connection.cursor()
     sql = "SELECT word FROM `query_history` where month(time)  >= month(current_timestamp) - 1 group by word order by count(*) desc limit 0,{0}".format(num)
@@ -56,18 +59,21 @@ def get_hot_query(num):
         result.append(item[0])
     return result
 
+# 记录查询请求
 def insert_query_history(word):
     cursor = connection.cursor()
     sql = "insert into query_history(word) values(%s)"
     cursor.execute(sql,(word,))
 
+# 更新缓存
 def insert_cache(province,sex,time,kind,data):
     cursor = connection.cursor()
     binary = MySQLdb.Binary(pickle.dumps(data))
     cache_sql = "insert into cache(province,sex,time,kind,content) values(%s,%s,%s,%s,%s)"
     cursor.execute(cache_sql,(province,sex,time,kind,binary))
 
-def cal_pmi(kind,sex,time,province,month):
+# 根据检索条件计算pmi,返回数据库中的查询结果
+def cal_pmi(kind="",sex="",time="",province="",month=""):
     try:
         cursor = connection.cursor()
         logging.info("kind:%s sex:%s time:%s province:%s cal_pmi begin:"%(kind,sex,time,province))
@@ -134,6 +140,7 @@ def cal_pmi(kind,sex,time,province,month):
     return result
 
 
+# 获取检索条件对应的微博原始文本，用于debug
 def get_content(sex,time,province,word):
 
     logging.info("get_content begin:")
@@ -180,7 +187,7 @@ def get_content(sex,time,province,word):
 
     return list
 
-
+# 针对单个词汇进行地区，月份，小时，属性分析，并返回结果
 def analyse(kind,word,attrs):
     try:
         logging.info("get_word begin:")
@@ -265,6 +272,8 @@ def stdev(list):
     else:
         return 0
     return (sum_num*1.0/len(list))**0.5
+
+# 获取列表数字中最突出最特色的几个
 def get_top(kind,one):
 
     k_list = {"month":0.6,"hour":0.6,"province":1.0}
@@ -307,28 +316,4 @@ def get_top(kind,one):
             if (index < top or index == 0) and value >= ave + dev * k:
                 result.append((name,value))
     return result
-
-# def get_top(one):
-#     result = []
-#     if not one:
-#         return result
-#     data = one.copy()
-#     ave = average(one.values())
-#     dev = stdev(one.values())
-#     result.append(("average",int(ave)))
-#     result.append(("dev",int(dev)))
-#     result.append(("dev/average",int(dev*100/ave)))
-#
-#     while True:
-#         ave = average(data.values())
-#         dev = stdev(data.values())
-#
-#         if data and ave > 0 and int(dev*100/ave) > 90:
-#             max_name,max_value = max(data.items(),key=lambda x:x[1])
-#             print max_name,max_value," ave:",ave,"dev:",dev,"dev/ave",dev*100/ave
-#             result.append((max_name,max_value))
-#             del data[max_name]
-#         else:
-#             break
-#     return result
 

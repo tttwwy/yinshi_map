@@ -39,18 +39,33 @@ def json2text(file_name):
     file_read.close()
     file_write.close()
 
-file =  os.listdir("/users3/nlp-data/weibo")
-for item in file:
-    if item.find(".gzip") != -1:
-        logging.info("begin copy:"+item)
-        src = os.path.join("/users3/nlp-data/weibo",item)
-        dis = os.path.join("/users3/nlp-data/scr",item.replace(".gzip",".gz"))
-        shutil.copyfile(src,dis)
-        logging.info("begin unzip:"+item)
-        os.system("gzip -d "+ dis)
-        logging.info("begin json2text:"+item)
-        json2text(os.path.join("/users3/nlp-data/scr",item.replace(".gzip","")))
-        os.remove(os.path.join("/users3/nlp-data/scr",item.replace(".gzip","")))
+class A():
+    a = 0
+    def set(self,a):
+        A.a = a
+class B(A):
+    pass
+# file =  os.listdir("/users3/nlp-data/weibo")
+# for item in file:
+#     if item.find(".gzip") != -1:
+#         logging.info("begin copy:"+item)
+#         src = os.path.join("/users3/nlp-data/weibo",item)
+#         dis = os.path.join("/users3/nlp-data/scr",item.replace(".gzip",".gz"))
+#         shutil.copyfile(src,dis)
+#         logging.info("begin unzip:"+item)
+#         os.system("gzip -d "+ dis)
+#         logging.info("begin json2text:"+item)
+#         json2text(os.path.join("/users3/nlp-data/scr",item.replace(".gzip","")))
+#         os.remove(os.path.join("/users3/nlp-data/scr",item.replace(".gzip","")))
+#
+# logging.info("end:"+item)
 
-logging.info("end:"+item)
+a = A()
 
+
+print a.a
+a.set(3)
+b = B()
+
+print a.a
+print b.a

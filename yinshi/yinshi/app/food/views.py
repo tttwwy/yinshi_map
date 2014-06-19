@@ -9,7 +9,9 @@ import json
 import math
 import models
 import logging
+import re
 
+# 主页
 def index(request):
     logging.info("hello open")
     t = get_template('index.html')
@@ -17,10 +19,8 @@ def index(request):
     html = t.render(context)
     return HttpResponse(html)
     # return render_to_response('index.html')
-def base(request):
-    logging.info("test open")
-    return render_to_response('base.html')
 
+# Debug主页
 def debug(request):
     logging.info("debug open")
     logging.info("hello open")
@@ -29,8 +29,9 @@ def debug(request):
     html = t.render(context)
     return HttpResponse(html)
 
-def compare(request):
-    return render_to_response('compare.html')
+
+
+# 获取单个词语省份，月份，小时，属性多维度统计
 def baike(request):
     word = request.GET.get('word',"")
     if word:
@@ -69,14 +70,13 @@ def get_content(request):
     context = Context({'content':result})
     html = t.render(context)
     return HttpResponse(html)
-
+# 单个词语多维度统计，包括省份，月份，小时，属性
 def analyse(request,kind):
 
-    # logging.info("word:{0}".format(word.decode('utf-8')))
-    # logging.info("kind:{0}".format(kind.decode('utf-8')))
     words = request.GET.get('word',"").strip().split(" ")
+    words = re.split(' |\+',request.GET.get('word',""))
 
-    word = words[0]
+    word = words[0] if words else ""
     attrs = words[1:]
 
     if kind == "month":
@@ -86,6 +86,8 @@ def analyse(request,kind):
     elif kind == "province":
         list,top = models.analyse(kind,word,attrs)
     return HttpResponse(json.dumps({"list":list,"top":top}))
+
+# 获取词云
 def wordcloud(request):
     sex = request.GET.get('sex',"")
     time = request.GET.get('time',"")
@@ -114,6 +116,7 @@ def wordcloud(request):
     logging.info("wordcloud done!")
     return HttpResponse(json.dumps(list))
 
+# 获取对应值的颜色
 def get_color(min,max,weight):
     colorlist = ['239ccc','3c9e01','b4d701','fc2c02','e10001']
     color = ""
@@ -129,7 +132,7 @@ def get_color(min,max,weight):
 
 
 
-
+# 生成cache
 def gen_cache(request):
     print "begin to gen cache"
     logging.info("begin to gen cache")
